@@ -1,0 +1,19 @@
+.graphics {
+    width: 500px;
+}
+
+.home-intro {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.quote {
+    max-width: 650px;
+    font-weight: 500;
+    font-size: 1.9rem;
+    line-height: 1.4;
+    font-family: 'Waiting for the Sunrise', cursive;
+    letter-spacing: 0.1rem;
+}

@@ -10,15 +10,16 @@
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://kit.fontawesome.com/b860cd42d5.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
-    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="./style/public-style.css">
+    <link rel="stylesheet" href="./style/about-me.css">
+    <script src="./js/app.js" defer></script>
 </head>
 
 <body>
 
     <header id="header" class="header-dark">
         <span class="sun" id="sun"></span>
-        <img src="./assets/images/moon.png" alt="dark mode" class="moon" id="moon">
+        <img src="./assets/images/Icons/moon.png" alt="dark mode" class="moon" id="moon">
         <img src="./assets/images/IMG_4876.JPG" alt="Salah Alkmali" class="profile-image">
         <h1 class="profile-name">Salah Alkmali</h1>
         <span class="profile-text" id="profile-text"></span>
@@ -40,9 +41,9 @@
     <nav id="navbar" class="">
         <span class="logo-text "> &lt; Salah Alkmali &gt; </span>
         <ul class="nav-links" id="nav-links">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#aboutme">About me</a></li>
-            <li><a href="#">Games</a></li>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="./games.html">Games</a></li>
             <li><a href="#">Store</a></li>
         </ul>
         <i class="fa-solid fa-bars nav-menu" id="nav-menu"></i>
@@ -50,9 +51,9 @@
     </nav>
     <div class="responsive-nav" id="responsive-navbar">
         <ul class="nav-links">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#aboutme">About me</a></li>
-            <li><a href="#">Games</a></li>
+            <li><a href="./home.html">Home</a></li>
+            <li><a href="#">About me</a></li>
+            <li><a href="./games.html">Games</a></li>
             <li><a href="#">Store</a></li>
         </ul>
     </div>
@@ -273,7 +274,8 @@
                 </div>
             </div>
         </div>
-        <button class="downloadCv"> Download Resume</button>
+        <a href="./assets/Cv/Salah Alkmali.pdf" download><button class="downloadCv"> Download Resume</button></a>
+        
     </main>
 
     <footer>
