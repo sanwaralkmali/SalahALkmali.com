@@ -12,10 +12,11 @@
     <script src="https://kit.fontawesome.com/b860cd42d5.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./style/game.css">
     <link rel="stylesheet" href="./style/public-style.css">
-    <script src="./js/app.js" defer></script>
+    <link rel="stylesheet" href="./style/games/memory-game.css">
 </head>
 
 <body>
+
 
     <nav id="navbar" class="">
         <span class="logo-text "> &lt; Salah Alkmali &gt; </span>
@@ -37,44 +38,149 @@
         </ul>
     </div>
 
-    <main>
+    <main class="main-content" id="games-card">
         <div class="space"></div>
         <div class=card>
             <div class=image>
-                <img href="#" src="https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg" alt="Miliionaire"> </div>
-                    <div class=content>
-                <h3>Who wants to be a Miliionaire</h3>
-                <p></p>
-                <a href="https://www.google.com/">Play Now</a>
+                <img href="#" src="./assets/images/Themes/Math Theme.png" alt="Millionaire"> </div>
+            <div class=content>
+                <h4>Who wants to be a Millionaire</h4>
+                <button id="millionaire-game-btn" class="play-game-btn">Play Now</button>
             </div>
         </div>
 
         <div class=card>
             <div class=image>
-                <img href="#" src="https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg" alt="Miliionaire"> </div>
-                    <div class=content>
-                <h3>Who wants to be a Miliionaire</h3>
-                <p></p>
-                <a href="https://www.google.com/">Play Now</a>
+                <img href="#" src="/assets/images/Themes/memory.png" alt="Memory game"> </div>
+            <div class=content>
+                <h4>Math Memory Game</h4>
+                <button id="memory-game-btn" class="play-game-btn">Play Now</button>
             </div>
         </div>
 
         <div class=card>
             <div class=image>
-                <img href="#" src="https://i.pinimg.com/originals/a4/7b/a5/a47ba59b4a353e0928ef0551ca44f980.jpg" alt="Miliionaire"> </div>
-                    <div class=content>
-                <h3>Who wants to be a Miliionaire</h3>
-                <p></p>
-                <a href="https://www.google.com/">Play Now</a>
+                <img href="#" src="./assets/images/Themes/Quizizz.png" alt="Quizizz"> </div>
+            <div class=content>
+                <h4>Quizizz</h4>
+                <button id="quizizz-game-btn" class="play-game-btn">Play Now</button>
             </div>
         </div>
-
     </main>
 
+    <main class="game-container">
+        <div class="hide lds-roller" id="loader">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+        <section class="hide millionaire-game" id="millionaire-game">
+            <header class="memory-game-header">
+                <h1 class="memory-game-title">Memory Game</h1>
+                <div class="header-right">
+                    <div class="grade-menu">
+                        <label for="m-grades">Grade : </label>
+                        <select name="m-Grade" id="m-grades">
+                            <option value="7">Grade 7</option>
+                            <option value="8">Grade 8</option>
+                        </select>
+                    </div>
+                    <div class="grade-menu">
+                        <label for="m-levels">Level : </label>
+                        <select name="m-levels" id="m-levels">
+                            <option value="Easy">Easy</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Hard">Hard</option>
+                            <option value="Legendary">Legendary</option>
+                        </select>
+                    </div>
+                    <div class="grade-menu">
+                        <label for="m-units">Unit : </label>
+                        <select name="m-units" id="m-units">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                </div>
+            </header>
+        </section>
+
+        <section class="hide memory-game" id="memory-game">
+            <header class="memory-game-header">
+                <h1 class="memory-game-title">Memory Game</h1>
+                <div class="header-right">
+                    <div class="grade-menu">
+                        <label for="grades">Grade : </label>
+                        <select name="Grade" id="grades">
+                            <option value="grade7">Grade 7</option>
+                            <option value="grade8">Grade 8</option>
+                        </select>
+                    </div>
+                    <div class="grade-menu">
+                        <label for="levels">Level : </label>
+                        <select name="levels" id="levels">
+                            <option value="easy">Easy</option>
+                            <option value="medium">Medium</option>
+                            <option value="hard">Hard</option>
+                            <option value="legendary">Legendary</option>
+                        </select>
+                    </div>
+                    <div class="grade-menu">
+                        <label for="units">Unit : </label>
+                        <select name="units" id="units">
+                            <option value="unit1">1</option>
+                            <option value="unit2">2</option>
+                            <option value="unit3">3</option>
+                        </select>
+                    </div>
+                </div>
+            </header>
+
+            <main class="hide game-content" id="game"> 
+                <div class="hide lds-roller" id="loader-2">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+
+                <div class="hide not_avaliable" id="not-avaliable">It's not available yet</div>
+            </main>
+
+            <div class="memory-footer">
+                <div class="moves">
+                    <span>Moves : </span>
+                    <span id="movesCounter">0</span>
+                </div>
+                <div class="timer">
+                    <span>Time remain : </span>
+                    <span id="timeCount">00:00</span>
+                </div>
+                <div class="points">
+                    <span>Points : </span>
+                    <span id="pointsCount">0</span>
+                </div>
+                <button class="start-btn" id="start-btn">Start</button>
+            </div>
+        </section>
+    </main>
     <footer>
         <span class="copy-right">Salah Alkmali &copy; 2022 </span>
         <span class="logo-text"> &lt; /Salah Alkmali &gt; </span>
     </footer>
 </body>
+<script src="./js/game.js"></script>
+<script src="./js/games/memory-game.js"></script>
 
 </html>

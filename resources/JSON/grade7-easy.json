@@ -1,0 +1,71 @@
+{
+    "unit1": [{
+            "question": "100 + (-50)",
+            "answer": "50"
+        },
+        {
+            "question": "10 + (-50)",
+            "answer": "-40"
+        },
+        {
+            "question": "100 + (-500)",
+            "answer": "-400"
+        },
+        {
+            "question": "1000 - (-50)",
+            "answer": "1050"
+        },
+        {
+            "question": "100 - (-50)",
+            "answer": "150"
+        },
+        {
+            "question": "100 + (-50)",
+            "answer": "50"
+        },
+        {
+            "question": "10 + (-50)",
+            "answer": "-40"
+        },
+        {
+            "question": "100 + (-500)",
+            "answer": "-400"
+        },
+        {
+            "question": "1000 - (-50)",
+            "answer": "1050"
+        },
+        {
+            "question": "100 - (-50)",
+            "answer": "150"
+        }
+
+    ],
+    "unit2": [{
+            "question": "100 x (-50)",
+            "answer": "-5000"
+        },
+        {
+            "question": "10 / (-50)",
+            "answer": "-0.2"
+        },
+        {
+            "question": "100 x (-500)",
+            "answer": "-50000"
+        },
+        {
+            "question": "1000 x (-50)",
+            "answer": "-50000"
+        },
+        {
+            "question": "100 / (-50)",
+            "answer": "-2"
+        },
+        {
+            "question": "100 x (-50)",
+            "answer": "-5000"
+        }
+
+    ]
+
+}
