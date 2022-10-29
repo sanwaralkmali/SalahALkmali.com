@@ -22,7 +22,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: url('/assets/images/demo-bg.jpg');
     background-size: cover;
     background-position: center;
     background-color: #20D6FF;
@@ -103,8 +102,8 @@ nav {
 
 .show {
     display: block !important;
-    position: relative;
-    top: 9%;
+    position: fixed;
+    top: 50px;
     width: 100%;
     z-index: 1000;
 }
@@ -139,6 +138,12 @@ footer .logo-text {
     background-position: center;
     -webkit-background-clip: text;
     color: transparent;
+}
+
+.not-avaliable-text {
+    color: hsl(0, 94%, 42%);
+    font-size: 0.9rem;
+    display: none;
 }
 
 @media only screen and (max-width: 800px) {

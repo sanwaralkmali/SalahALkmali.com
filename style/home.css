@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .graphics {
     width: 500px;
 }
@@ -16,4 +22,80 @@
     line-height: 1.4;
     font-family: 'Waiting for the Sunrise', cursive;
     letter-spacing: 0.1rem;
+}
+
+/*******************************************************************/
+/* content Map */
+
+.content-map {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-flow: column;
+    flex-direction: column;
+    flex: 1;
+    gap: 1.5rem;
+    margin-top: 3rem;
+}
+
+.content-btns {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.content-btn {
+    padding: 12px 15px;
+    background-color: hsl(98, 54%, 73%);
+    border-radius: 8px;
+}
+
+.content-btn a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.content-btn:hover {
+    background-color: hsl(90, 75%, 78%);
+    cursor: pointer;
+}
+
+.content-btn:hover {
+    background-color: hsl(90, 75%, 78%);
+    cursor: pointer;
+}
+.map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.mathmatics-map {
+   height: 450px;
+   border: 2px solid black;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 15px;
+    width: 60%;
+    background-color: hsl(10, 2%, 98%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mathmatics-map p {
+    color: hsl(0, 86%, 40%);
+}
+
+
+@media only screen and (max-width: 800px) {
+    .quote {
+        font-size: 1.2rem;
+        padding: 10px;
+    }
+    .mathmatics-map  {
+        width: 96%;
+    }
 }

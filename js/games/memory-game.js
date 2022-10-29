@@ -18,11 +18,16 @@ let firstbox;
 let secondbox;
 let path = '';
 let unit = '';
+let isPair = true;
 let game = document.getElementById('game');
 let movesCounter = document.getElementById('movesCounter');
 let time = document.getElementById('timeCount');
 let not_available = document.getElementById('not-avaliable');
-
+let movesContainer = document.getElementById('moves');
+let pointsContainer = document.getElementById('points');
+let pointCounter = document.getElementById('pointsCount');
+let timerContainer = document.getElementById('timer');
+let memoryGame_header = document.getElementById('memoryGameHeader')
 let start_btn = document.getElementById('start-btn');
 
 function getPath() {
@@ -39,8 +44,6 @@ function getPath() {
         unit
     };
 }
-
-getPath();
 start_btn.addEventListener('click', function () {
     not_available.classList.add('hide');
     let loader2 = document.getElementById('loader-2');
@@ -57,7 +60,11 @@ start_btn.addEventListener('click', function () {
                 quetionslist = data[unit];
                 createGame(quetionslist);
                 createAnswerKey(quetionslist);
-                startWatching(seconds, minutes);
+                startWatching(seconds, minutes , quetionslist.length);
+                movesContainer.classList.remove('hide');
+                pointsContainer.classList.remove('hide');
+                timerContainer.classList.remove('hide');
+                memoryGame_header.classList.toggle('hide');
             } catch (error) {
                 console.log(error);
                 not_available.classList.remove('hide');
@@ -65,6 +72,7 @@ start_btn.addEventListener('click', function () {
             }
         });
     }, 1000);
+
 
 });
 
@@ -113,32 +121,42 @@ function createBox(text) {
 function boxClick() {
     let box = document.querySelectorAll('.box');
     box.forEach(function (b) {
+
         b.addEventListener('click', function () {
-            b.classList.add('flip');
-            if (turn == 1) {
-                firstbox = b;
-                first = firstbox.textContent;
-                turn = 2;
-            } else if (turn == 2) {
-                secondbox = b;
-                second = secondbox.textContent;
-                if (firstbox == secondbox) return;
-                if (checkAnswer(first, second)) {
-                    num_correct_answerses++;
-                    points = +10;
-                } else {
-                    setTimeout(function () {
-                        firstbox.classList.remove('flip');
-                        secondbox.classList.remove('flip');
-                    }, 1000);
+            if (isPair && !isFinished) {
+                b.classList.add('flip');
+                if (turn == 1) {
+                    firstbox = b;
+                    first = firstbox.textContent;
+                    turn = 2;
+                } else if (turn == 2) {
+                    isPair = false;
+                    secondbox = b;
+                    second = secondbox.textContent;
+                    if (firstbox == secondbox) return;
+                    if (checkAnswer(first, second)) {
+                        num_correct_answerses++;
+                        points += 10;
+                        pointCounter.innerHTML = points.toString();
+                        isPair = true;
+                    } else {
+                        setTimeout(function () {
+                            firstbox.classList.remove('flip');
+                            secondbox.classList.remove('flip');
+                            isPair = true;
+
+                        }, 1000);
+                    }
+                    turn = 1;
+                    first = '';
+                    second = '';
                 }
-                turn = 1;
-                first = '';
-                second = '';
+                moves = moves + 1;
+                movesCounter.innerHTML = moves;
             }
-            moves = moves + 1;
-            movesCounter.innerHTML = moves;
         });
+
+
     });
 }
 
@@ -169,14 +187,15 @@ function shuffle(array) {
     return array;
 }
 
-function startWatching(seconds, minutes) {
+function startWatching(seconds, minutes , l) {
     timer_observer = setInterval(() => {
         seconds > 58 ? ((minutes += 1), (seconds = 0)) : (seconds += 1);
         seconds_str = seconds > 9 ? `${seconds}` : `0${seconds}`;
         minutes_str = minutes > 9 ? `${minutes}` : `0${minutes}`;
         time.innerHTML = `${minutes_str}:${seconds_str}`;
-        if (num_correct_answerses == 10) {
+        if (num_correct_answerses == l) {
             clearInterval(timer_observer);
+            isFinished = true;
         }
     }, 1000);
 }

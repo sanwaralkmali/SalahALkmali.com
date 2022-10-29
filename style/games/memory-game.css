@@ -19,11 +19,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+    gap: 20px;
 }
 
 .header-right {
+    width: 90%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     gap: 25px;
 }
@@ -55,6 +58,9 @@
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s ease-in-out;
+    margin: 0 auto;
+    margin-top: 100px;
+
 }
 
 .start-btn:hover {
@@ -62,9 +68,6 @@
     color: #000;
 }
 
-#loader-2{
-
-}
 
 /****************************************************/
 /********************** game-content ****************/
@@ -75,7 +78,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     width: 100%;
     max-width: 900px;
@@ -84,7 +86,7 @@
     transition: 0.3s ease-in-out;
     border-radius: 5px;
     border: 1px solid #111;
-    
+
 
 }
 
@@ -124,14 +126,27 @@
     align-items: center;
     border-radius: 5px;
 }
-.flip-card-back h1{
+
+.flip-card-back h1 {
     font-size: 20px;
     color: #000;
 }
 
-.not_avaliable{
+.not_avaliable {
     color: rgb(183, 4, 4);
     cursor: not-allowed;
     font-weight: 500;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 650px) {
+    #memory-game {
+        width: 95%;
+    }
+
+    .memory-game-header {}
+
+    .box {
+        width: calc(100% * (1/2) - 10px - 1px);
+    }
 }

@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./style/game.css">
     <link rel="stylesheet" href="./style/public-style.css">
     <link rel="stylesheet" href="./style/games/memory-game.css">
+    <script src="./js/public-js.js" defer></script>
+
 </head>
 
 <body>
@@ -24,7 +26,7 @@
             <li><a href="./home.html">Home</a></li>
             <li><a href="./about-me.html">About me</a></li>
             <li><a href="#">Games</a></li>
-            <li><a href="#">Store</a></li>
+            <li><a href="./articles.html">Articles</a></li>
         </ul>
         <i class="fa-solid fa-bars nav-menu" id="nav-menu"></i>
 
@@ -34,18 +36,19 @@
             <li><a href="./home.html">Home</a></li>
             <li><a href="./about-me.html">About me</a></li>
             <li><a href="#">Games</a></li>
-            <li><a href="#">Store</a></li>
+            <li><a href="./articles.html">Articles</a></li>
         </ul>
     </div>
 
     <main class="main-content" id="games-card">
         <div class="space"></div>
-        <div class=card>
+        <div class=card id="game001">
             <div class=image>
                 <img href="#" src="./assets/images/Themes/Math Theme.png" alt="Millionaire"> </div>
             <div class=content>
                 <h4>Who wants to be a Millionaire</h4>
                 <button id="millionaire-game-btn" class="play-game-btn">Play Now</button>
+                <p class="not-avaliable-text" id="text001">Not available </p>
             </div>
         </div>
 
@@ -58,17 +61,18 @@
             </div>
         </div>
 
-        <div class=card>
+        <div class=card id="game002">
             <div class=image>
                 <img href="#" src="./assets/images/Themes/Quizizz.png" alt="Quizizz"> </div>
             <div class=content>
                 <h4>Quizizz</h4>
                 <button id="quizizz-game-btn" class="play-game-btn">Play Now</button>
+                <p class="not-avaliable-text" id="text002">Not available </p>
             </div>
         </div>
     </main>
 
-    <main class="game-container">
+    <main class="hide game-container" id="game-container">
         <div class="hide lds-roller" id="loader">
             <div></div>
             <div></div>
@@ -80,42 +84,14 @@
             <div></div>
         </div>
 
-        <section class="hide millionaire-game" id="millionaire-game">
-            <header class="memory-game-header">
-                <h1 class="memory-game-title">Memory Game</h1>
-                <div class="header-right">
-                    <div class="grade-menu">
-                        <label for="m-grades">Grade : </label>
-                        <select name="m-Grade" id="m-grades">
-                            <option value="7">Grade 7</option>
-                            <option value="8">Grade 8</option>
-                        </select>
-                    </div>
-                    <div class="grade-menu">
-                        <label for="m-levels">Level : </label>
-                        <select name="m-levels" id="m-levels">
-                            <option value="Easy">Easy</option>
-                            <option value="Medium">Medium</option>
-                            <option value="Hard">Hard</option>
-                            <option value="Legendary">Legendary</option>
-                        </select>
-                    </div>
-                    <div class="grade-menu">
-                        <label for="m-units">Unit : </label>
-                        <select name="m-units" id="m-units">
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                        </select>
-                    </div>
-                </div>
-            </header>
-        </section>
 
         <section class="hide memory-game" id="memory-game">
             <header class="memory-game-header">
-                <h1 class="memory-game-title">Memory Game</h1>
-                <div class="header-right">
+                <div class="title-container">
+                    <h1 class="memory-game-title">Memory Game</h1>
+                    <span id="close-memory-game">x</span>
+                </div>
+                <div class="header-right" id="memoryGameHeader">
                     <div class="grade-menu">
                         <label for="grades">Grade : </label>
                         <select name="Grade" id="grades">
@@ -143,7 +119,7 @@
                 </div>
             </header>
 
-            <main class="hide game-content" id="game"> 
+            <main class="hide game-content" id="game">
                 <div class="hide lds-roller" id="loader-2">
                     <div></div>
                     <div></div>
@@ -159,15 +135,15 @@
             </main>
 
             <div class="memory-footer">
-                <div class="moves">
+                <div class="hide moves" id="moves">
                     <span>Moves : </span>
                     <span id="movesCounter">0</span>
                 </div>
-                <div class="timer">
+                <div class="hide timer" id="timer">
                     <span>Time remain : </span>
                     <span id="timeCount">00:00</span>
                 </div>
-                <div class="points">
+                <div class="hide points" id="points">
                     <span>Points : </span>
                     <span id="pointsCount">0</span>
                 </div>

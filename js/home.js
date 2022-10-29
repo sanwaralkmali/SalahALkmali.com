@@ -35,3 +35,11 @@ function typewriter() {
 }
 
 typewriter();
+
+document.getElementById("math-content").addEventListener("mouseover", function() {
+document.getElementById("content-map-title").innerHTML = "Mathematics Map";
+});
+
+document.getElementById("computer-sci-content").addEventListener("mouseover", function() {
+    document.getElementById("content-map-title").innerHTML = "Computer Science Map";
+    });

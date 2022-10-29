@@ -26,11 +26,11 @@ header {
 }
 
 .header-dark:before {
-    background-image: url('/assets/images/demo-bg.jpg');
+    background-image: url('/assets/images/Backgrounds/demo-bg.jpg');
 }
 
 .header-light:before {
-    background-image: url('/assets/images/light-background.jpg');
+    background-image: url('/assets/images/Backgrounds/light-background.jpg');
 }
 
 .moon {
@@ -237,7 +237,7 @@ main::before {
     left: 0;
     bottom: 0;
     right: 0;
-    background-image: url('/assets/images/demo-bg.jpg');
+    background-image: url('/assets/images/Backgrounds/demo-bg.jpg');
     z-index: -1;
     opacity: 0.9;
     transition: background-image 2s ease-in;

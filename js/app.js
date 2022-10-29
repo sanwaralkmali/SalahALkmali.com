@@ -33,7 +33,7 @@ sun.addEventListener("click", function() {
 
 let profile_text = document.getElementById('profile-text');
 
-let profile_text_values = ["I am a Web Developer!",
+let profile_text_values = ["I am a Computer Engineer !",
     "I am a Math Teacher!",
     "I am a Music Lover!",
 ];
@@ -86,10 +86,3 @@ function myFunction() {
 }
 
 // *********************************************************** \\
-let nav_menu = document.querySelector("#nav-menu");
-let nav_menu_item = document.getElementById("responsive-navbar");
-
-nav_menu.addEventListener("click", function() {
-    nav_menu_item.classList.toggle("show");
-}
-);
