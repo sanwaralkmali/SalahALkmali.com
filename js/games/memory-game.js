@@ -29,16 +29,19 @@ let pointCounter = document.getElementById('pointsCount');
 let timerContainer = document.getElementById('timer');
 let memoryGame_header = document.getElementById('memoryGameHeader')
 let start_btn = document.getElementById('start-btn');
+let level_value = '';
+let num_of_tries = 0;
 
 function getPath() {
     let grade = document.getElementById("grades");
     let grade_value = grade.value;
     let level = document.getElementById("levels");
-    let level_value = level.value;
+    level_value = level.value;
+    console.log(level_value);
     let unit = document.getElementById("units");
     let unit_value = unit.value;
     unit = unit_value;
-    path = "../../resources/JSON/" + grade_value + "-" + level_value + ".json";
+    path = "../../resources/JSON/" + grade_value + ".json";
     return {
         path,
         unit
@@ -56,11 +59,17 @@ start_btn.addEventListener('click', function () {
         unit = getPath().unit;
         readTextFile(path, function (text) {
             var data = JSON.parse(text);
+            let q_num = 0;
+            console.log(level_value);
+            if (level_value == "easy") q_num = 6;
+            else if (level_value == "medium") q_num = 8;
+            else if (level_value == "hard" || level_value == "legendary") q_num = 12;
             try {
-                quetionslist = data[unit];
+                quetionslist = getRandom(data[unit], q_num);
+                console.log(quetionslist);
                 createGame(quetionslist);
                 createAnswerKey(quetionslist);
-                startWatching(seconds, minutes , quetionslist.length);
+                startWatching(seconds, minutes, quetionslist.length);
                 movesContainer.classList.remove('hide');
                 pointsContainer.classList.remove('hide');
                 timerContainer.classList.remove('hide');
@@ -145,6 +154,15 @@ function boxClick() {
                             secondbox.classList.remove('flip');
                             isPair = true;
 
+                            if (level_value == 'legendary') {
+                                box.forEach(function (b) {
+                                    b.classList.remove('flip');
+                                    points = 0;
+                                    pointCounter.innerHTML = points.toString();
+                                    num_correct_answerses = 0;
+                                });
+                            }
+
                         }, 1000);
                     }
                     turn = 1;
@@ -187,7 +205,7 @@ function shuffle(array) {
     return array;
 }
 
-function startWatching(seconds, minutes , l) {
+function startWatching(seconds, minutes, l) {
     timer_observer = setInterval(() => {
         seconds > 58 ? ((minutes += 1), (seconds = 0)) : (seconds += 1);
         seconds_str = seconds > 9 ? `${seconds}` : `0${seconds}`;
@@ -196,6 +214,49 @@ function startWatching(seconds, minutes , l) {
         if (num_correct_answerses == l) {
             clearInterval(timer_observer);
             isFinished = true;
+            let score = points * 10 - moves;
+            let timeInSeconds = minutes * 60 + seconds;
+            score = score - timeInSeconds;
+            pointCounter.innerHTML = score.toString();
+            document.getElementById('play-again').innerHTML = 'Play Again';
+            document.getElementById('play-again').classList.add('play-again-btn');
+            document.getElementById('play-again').addEventListener('click', function () {
+                playAgain();
+            });
         }
     }, 1000);
+}
+
+function getRandom(arr, n) {
+    var result = new Array(n),
+        len = arr.length,
+        taken = new Array(len);
+    if (n > len)
+        throw new RangeError("getRandom: more elements taken than available");
+    while (n--) {
+        var x = Math.floor(Math.random() * len);
+        result[n] = arr[x in taken ? taken[x] : x];
+        taken[x] = --len in taken ? taken[len] : len;
+    }
+    return result;
+}
+
+function playAgain() {
+    num_of_tries++;
+    document.querySelectorAll('.box').forEach(e => e.classList.remove('flip'));
+    points = 0;
+    timer = 0;
+    seconds = 0;
+    minutes = 0;
+    moves = 0;
+    num_correct_answerses = 0;
+    turn = 1;
+    first = '';
+    second = '';
+    isFinished = false;
+    startWatching(seconds, minutes, quetionslist.length);
+    pointCounter.innerHTML = points.toString();
+    movesCounter.innerHTML = moves;
+    document.getElementById('play-again').innerHTML = '';
+    document.getElementById('play-again').classList.remove('play-again-btn');
 }

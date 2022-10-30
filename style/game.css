@@ -177,24 +177,9 @@
 
 }
 
-#close-memory-game {
-  position: relative;
-  float: right;
-  color: #111;
-  cursor: pointer;
-}
 
-.title-container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-}
 
-.memory-game-title{
-  flex: 1;
-  text-align: center;
-}
+
 /********************************************************************/
 /********************************************************************/
 

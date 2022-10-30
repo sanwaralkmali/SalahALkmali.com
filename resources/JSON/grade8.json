@@ -1,0 +1,99 @@
+{
+    "unit1": [{
+            "question": "√25",
+            "answer": "5"
+        },
+        {
+            "question": "3√64",
+            "answer": "4"
+        },
+        {
+            "question": "-√100",
+            "answer": "-10"
+        },
+        {
+            "question": "3√1000",
+            "answer": "10"
+        },
+        {
+            "question": "3√-27",
+            "answer": "-3"
+        },
+        {
+            "question": "√0",
+            "answer": "0"
+        },
+        {
+            "question": "√81",
+            "answer": "9"
+        },
+        {
+            "question": "3√-729",
+            "answer": "-9"
+        }, {
+            "question": "1/2",
+            "answer": "0.5"
+        },
+        {
+            "question": "3/11",
+            "answer": "0.27..."
+        },
+        {
+            "question": "- 3/2",
+            "answer": "-1.5"
+        },
+        {
+            "question": " 6/9",
+            "answer": "0.6..."
+        }
+
+    ],
+    "unit2": [{
+            "question": "7^2",
+            "answer": "49"
+        },
+        {
+            "question": "6^3",
+            "answer": "216"
+        },
+        {
+            "question": "-5^4",
+            "answer": "625"
+        },
+        {
+            "question": "9^0",
+            "answer": "1"
+        }, {
+            "question": "15000000",
+            "answer": "1.5*10^7"
+        },
+        {
+            "question": "69400",
+            "answer": "6.94*10^4"
+        },
+        {
+            "question": "0.0000000000019",
+            "answer": "1.9*10^-12"
+        },
+        {
+            "question": "9.8*10^4",
+            "answer": "98000"
+        }, {
+            "question": "362.14",
+            "answer": "3.6214*10^2"
+        },
+        {
+            "question": "0.036214",
+            "answer": "3.6214*10^-2"
+        }
+        , {
+            "question": "0.0000000153",
+            "answer": "1.53*10^-8"
+        },
+        {
+            "question": "65",
+            "answer": "6.5*10^1"
+        }
+
+    ]
+}

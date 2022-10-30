@@ -68,7 +68,35 @@
     color: #000;
 }
 
+#close-memory-game {
+    color: #111;
+    cursor: pointer;
+    min-width: 48px;
+  }
 
+  .title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .memory-game-title{
+    text-align: center;
+  }
+  
+  .play-again {
+    padding: 5px;
+  }
+  
+  .play-again-btn{
+    border: none;
+    background-color: hsl(250, 75%, 85%);
+    color: #111;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border-radius: 5px;
+  }
 /****************************************************/
 /********************** game-content ****************/
 
