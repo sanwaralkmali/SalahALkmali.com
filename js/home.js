@@ -34,12 +34,43 @@ function typewriter() {
     }
 }
 
-typewriter();
+// typewriter();
 
-document.getElementById("math-content").addEventListener("mouseover", function() {
-document.getElementById("content-map-title").innerHTML = "Mathematics Map";
+const textDisplay = document.getElementById('quote');
+const inputText = "If you are planning for a year, sow rice;<br>if you are planning for a decade, plant trees;<br> if you are planning for a lifetime, educate people.";
+
+function typeText(text, element, index = 0) {
+    if (index < text.length) {
+        const currentChar = text.charAt(index);
+
+        if (currentChar === '<' && text.slice(index, index + 4) === '<br>') {
+            element.innerHTML += '<br>';
+            index += 4;
+        } else {
+            element.innerHTML += currentChar;
+            index += 1;
+        }
+
+        setTimeout(() => typeText(text, element, index), 100); // Adjust the number 100 for the typing speed (in milliseconds)
+    } else {
+        setTimeout(() => {element.innerHTML = '';}, 4000); // Adjust the number 1000 for the pause duration (in milliseconds) before typing again
+        setTimeout(() => typeText(text, element), 4000); // Adjust the number 1000 for the pause duration (in milliseconds) before typing again
+    }
+}
+
+typeText(inputText, textDisplay);
+
+
+document.getElementById("math-content").addEventListener("click", function () {
+    document.getElementById("content-map-title").innerHTML = "Mathematics Map";
+    document.getElementById("videoIframe").src = "../../assets/roadmap/videos/5th Math Roadmap.mp4";
+    document.getElementById("mathRoadmaps").style.display = "flex";
+    document.getElementById("programmingRoadmaps").style.display = "none";
 });
 
-document.getElementById("computer-sci-content").addEventListener("mouseover", function() {
+document.getElementById("computer-sci-content").addEventListener("click", function () {
     document.getElementById("content-map-title").innerHTML = "Computer Science Map";
-    });
+    document.getElementById("videoIframe").src = "../../assets/roadmap/videos/6th grade Roadmap.mp4";
+    document.getElementById("mathRoadmaps").style.display = "none";
+    document.getElementById("programmingRoadmaps").style.display = "flex";
+});
