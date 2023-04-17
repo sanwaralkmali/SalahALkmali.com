@@ -66,18 +66,17 @@ async function handleSubmit(event) {
         path = getPath().path;
         const topic = getPath().topic_value;
         const level = getPath().level_value;
-        console.log(level);
 
         if (level == "Easy") q_num = 4;
         else if (level == "Medium") q_num = 6;
-        else if (level == "Hard" || level == "Super Hard") q_num = 8;
+        else if (level == "Hard") q_num = 9;
+        else if (level == "Super Hard") q_num = 6;
         try {
             questionList = await fetchQuestions(path, level);
             randomQuestions = getRandomQuestions(questionList, q_num);
             createMemoryBoard(memoryBoard, randomQuestions, questionList);
-            startWatching(seconds, minutes, q_num);
+            startWatching(seconds, minutes, randomQuestions);
             movesContainer.classList.remove('hide');
-            console.log(q_num);
             pointsContainer.classList.remove('hide');
             timerContainer.classList.remove('hide');
             memoryGame_header.classList.toggle('hide');
@@ -93,7 +92,6 @@ async function fetchQuestions(path) {
     try {
         const response = await fetch(path);
         const data = await response.json();
-        console.log(data);
         const questionList = data.map(item => new Question(item.question, item.answer, item.qType, item.aType));
         return questionList;
     } catch (error) {
@@ -128,11 +126,9 @@ function createMemoryBoard(memoryBoard, questionPairs) {
         card.dataset.text = item.text;
 
         let cardContent;
-        console.log(item.type);
         if (item.type === "image") {
             const img_path = "../../resources/JSON/" + grade_value + "/" + "images" + "/" + topic_value + "/" + item.text;
-            console.log(img_path);
-                cardContent = `<img src="${img_path}" alt="Image" class="card-img"/>`;
+            cardContent = `<img src="${img_path}" alt="Image" class="card-img"/>`;
         } else {
             cardContent = item.text;
         }
@@ -153,6 +149,8 @@ function createMemoryBoard(memoryBoard, questionPairs) {
 
 function checkCards(questionPairs) {
     const flippedCards = document.querySelectorAll('.memory-card.flipped');
+    let isSuper = false;
+    isMatch = false;
     moves = moves + 1;
     movesCounter.innerHTML = moves;
     if (flippedCards.length === 2) {
@@ -160,25 +158,49 @@ function checkCards(questionPairs) {
         const card2Text = flippedCards[1].dataset.text;
         for (const item of questionPairs) {
             if ((item.question === card1Text && item.answer === card2Text) || (item.question === card2Text && item.answer === card1Text)) {
-                num_correct_answerses++;
+                isMatch = true;
                 flippedCards.forEach(card => {
                     card.classList.add('matched');
                     card.removeEventListener('click', card.listener);
                     points += 10;
                     pointCounter.innerHTML = points.toString();
                 });
+                num_correct_answerses++;
+
             } else {
                 setTimeout(() => {
+                    isMatch = false;
                     flippedCards.forEach(card => {
                         card.classList.remove('flipped');
                     });
                 }, 1000);
             }
+            if (level_value === "Super Hard") {
+                isSuper = true;
 
+            }
 
         }
+        if (!isMatch && isSuper) {
+            setTimeout(() => {
+                resetMatchedCards();
+            }, 1000);
+        }
+
     }
+
+
 }
+
+function resetMatchedCards() {
+    const matchedCards = document.querySelectorAll('.memory-card.matched');
+    matchedCards.forEach(card => {
+        card.classList.remove('matched');
+        card.classList.remove('flipped');
+        card.addEventListener('click', card.listener);
+    });
+}
+
 
 function flipCard(event, questionPairs) {
     const flippedCards = document.querySelectorAll('.memory-card.flipped');
@@ -198,43 +220,27 @@ function shuffleArray(array) {
     }
 }
 
-function flipCard(event, questionPairs) {
-    const flippedCards = document.querySelectorAll('.memory-card.flipped');
-    if (flippedCards.length >= 2) {
-        return;
-    }
-
-    const card = event.currentTarget;
-    card.classList.add('flipped');
-    checkCards(questionPairs);
-}
-
-function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [array[i], array[j]] = [array[j], array[i]];
-    }
-}
-
-function startWatching(seconds, minutes, l) {
+function startWatching(seconds, minutes, questionPairs) {
     timer_observer = setInterval(() => {
-        console.log(num_correct_answerses);
         seconds > 58 ? ((minutes += 1), (seconds = 0)) : (seconds += 1);
         seconds_str = seconds > 9 ? `${seconds}` : `0${seconds}`;
         minutes_str = minutes > 9 ? `${minutes}` : `0${minutes}`;
         time.innerHTML = `${minutes_str}:${seconds_str}`;
-        if (num_correct_answerses == l) {
-            clearInterval(timer_observer);
-            isFinished = true;
-            let score = points * 10 - moves;
-            let timeInSeconds = minutes * 60 + seconds;
-            score = score - timeInSeconds;
-            pointCounter.innerHTML = score.toString();
-            document.getElementById('play-again').innerHTML = 'Play Again';
-            document.getElementById('play-again').classList.add('play-again-btn');
-            document.getElementById('play-again').addEventListener('click', function () {
-                playAgain(l);
-            });
+
+        if (document.querySelectorAll('.memory-card.matched').length === questionPairs.length * 2) {
+            setTimeout(() => {
+                clearInterval(timer_observer);
+                isFinished = true;
+                let score = points * 10 - moves;
+                let timeInSeconds = minutes * 60 + seconds;
+                score = score - timeInSeconds;
+                pointCounter.innerHTML = score.toString();
+                document.getElementById('play-again').innerHTML = 'Play Again';
+                document.getElementById('play-again').classList.add('play-again-btn');
+                document.getElementById('play-again').addEventListener('click', function () {
+                    playAgain(questionPairs);
+                });
+            }, 100);
         }
     }, 1000);
 }

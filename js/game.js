@@ -88,3 +88,6 @@ function updateTopics() {
         topics.innerHTML = '<option value="">Select a topic</option>';
     }
 }
+
+
+document.getElementById("grades").addEventListener("change", updateTopics);
