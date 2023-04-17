@@ -15,6 +15,7 @@
         integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="https://kit.fontawesome.com/b860cd42d5.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./style/game.css">
     <link rel="stylesheet" href="./style/public-style.css">
     <link rel="stylesheet" href="./style/games/memory-game.css">
@@ -95,37 +96,47 @@
                 <div class="title-container">
                     <span class="play-again" id="play-again"></span>
                     <h1 class="memory-game-title">Memory Game</h1>
-                    <span id="close-memory-game">x</span>
+                    <span id="close-memory-game"><img src="./assets/images/Icons/close.png" alt="" srcset=""
+                            width="20"></span>
                 </div>
                 <div class="header-right" id="memoryGameHeader">
-                    <div class="grade-menu">
-                        <label for="grades">Grade : </label>
-                        <select name="Grade" id="grades">
-                            <option value="grade7">Grade 7</option>
-                            <option value="grade8">Grade 8</option>
+                    <div class="mb-4 mt-10">
+                        <label for="grades" class="block text-gray-700 text-sm font-bold mb-2">Grades:</label>
+                        <select id="grades" name="grades"
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                            onchange="updateTopics()">
+                            <option value="">Select a grade</option>
+                            <script>
+                                for (let i = 1; i <= 12; i++) {
+                                    document.write(`<option value="${i}">Grade ${i}</option>`);
+                                }
+                            </script>
                         </select>
                     </div>
-                    <div class="grade-menu">
-                        <label for="levels">Level : </label>
-                        <select name="levels" id="levels">
-                            <option value="easy">Easy</option>
-                            <option value="medium">Medium</option>
-                            <option value="hard">Hard</option>
-                            <option value="legendary">Legendary</option>
+
+                    <div class="mb-4 mt-10">
+                        <label for="levels" class="block text-gray-700 text-sm font-bold mb-2">Levels:</label>
+                        <select id="levels" name="levels"
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                            <option value="">Select a level</option>
+                            <option>Easy</option>
+                            <option>Medium</option>
+                            <option>Hard</option>
+                            <option>Super Hard</option>
                         </select>
                     </div>
-                    <div class="grade-menu">
-                        <label for="units">Unit : </label>
-                        <select name="units" id="units">
-                            <option value="unit1">1</option>
-                            <option value="unit2">2</option>
-                            <option value="unit3">3</option>
+                    <div class="mb-4 mt-10">
+                        <label for="topics" class="block text-gray-700 text-sm font-bold mb-2">Topics:</label>
+                        <select id="topics" name="topics"
+                            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                            disabled>
+                            <option value="">Select a topic</option>
                         </select>
                     </div>
                 </div>
             </header>
 
-            <main class="hide game-content" id="game">
+            <main id="memory-board" class="memory-board hidden">
                 <div class="hide lds-roller" id="loader-2">
                     <div></div>
                     <div></div>
@@ -153,7 +164,9 @@
                     <span>Points : </span>
                     <span id="pointsCount">0</span>
                 </div>
-                <button class="start-btn" id="start-btn">Start</button>
+                <button
+                    class="start-btn bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                    id="start-btn" onclick="handleSubmit(event)">Start</button>
             </div>
         </section>
     </main>

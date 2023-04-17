@@ -1,0 +1,81 @@
+[{
+        "question": "Find the inverse function of f(x) = 3x - 7",
+        "answer": "f^(-1)(x) = (x + 7) / 3"
+    },
+    {
+        "question": "Find the inverse function of g(x) = (x - 2) / 5",
+        "answer": "g^(-1)(x) = 5x + 2"
+    },
+    {
+        "question": "Which function is the inverse of h(x) = 2x + 3?",
+        "answer": "h^(-1)(x) = (x - 3) / 2"
+    },
+    {
+        "question": "Determine the domain of the inverse function of f(x) = x^2, x >= 0",
+        "answer": "[0, +∞)"
+    },
+    {
+        "question": "Determine the range of the inverse function of f(x) = x^2, x >= 0",
+        "answer": "[0, +∞)"
+    },
+    {
+        "question": "Find the inverse function of f(x) = (3x - 1) / 4",
+        "answer": "f^(-1)(x) = (4x + 1) / 3"
+    },
+    {
+        "question": "Find the inverse function of g(x) = sqrt(x - 4)",
+        "answer": "g^(-1)(x) = x^2 + 4"
+    },
+    {
+        "question": "Which function is the inverse of h(x) = 4x - 5?",
+        "answer": "h^(-1)(x) = (x + 5) / 4"
+    },
+    {
+        "question": "Determine the domain of the inverse function of f(x) = sqrt(x - 2)",
+        "answer": "[0, +∞)"
+    },
+    {
+        "question": "Determine the range of the inverse function of f(x) = sqrt(x - 2)",
+        "answer": "[2, +∞)"
+    },
+    {
+        "question": "Find the inverse function of f(x) = (x + 3) / 2",
+        "answer": "f^(-1)(x) = 2x - 3"
+    },
+    {
+        "question": "Find the inverse function of g(x) = (x^2 + 1) / 3",
+        "answer": "g^(-1)(x) = sqrt(3x - 1)"
+    },
+    {
+        "question": "Which function is the inverse of h(x) = 1 / (x + 3)?",
+        "answer": "h^(-1)(x) = 1 / x - 3"
+    },
+    {
+        "question": "Determine the domain of the inverse function of f(x) = 1 / (x - 4)",
+        "answer": "(-∞, 4) U (4, +∞)"
+    },
+    {
+        "question": "Determine the range of the inverse function of f(x) = 1 / (x - 4)",
+        "answer": "(-∞, 4) U (4, +∞)"
+    },
+    {
+        "question": "Find the inverse function of f(x) = (5x - 3) / 2",
+        "answer": "f^(-1)(x) = (2x + 3) / 5"
+    },
+    {
+        "question": "Find the inverse function of g(x) = (2x - 1) / (3x + 1)",
+        "answer": "g^(-1)(x) = (x + 1) / (3x - 2)"
+    },
+    {
+        "question": "Which function is the inverse of h(x) = x^3 + 4?",
+        "answer": "h^(-1)(x) = (x - 4)^(1/3)"
+    },
+    {
+        "question": "Determine the domain of the inverse function of f(x) = x^3 - 2",
+        "answer": "(-∞, +∞)"
+    },
+    {
+        "question": "Determine the range of the inverse function of f(x) = x^3 - 2",
+        "answer": "(-∞, +∞)"
+    }
+]

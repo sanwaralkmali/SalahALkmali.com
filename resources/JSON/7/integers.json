@@ -1,0 +1,50 @@
+[{
+        "question": "7 + (-13)",
+        "answer": "-6"
+    },
+    {
+        "question": "-9 + (-3)",
+        "answer": "-12"
+    },
+    {
+        "question": "100 + 5",
+        "answer": "105"
+    },
+    {
+        "question": "35 - (-5)",
+        "answer": "40"
+    },
+    {
+        "question": "9 - 50",
+        "answer": "-41"
+    },
+    {
+        "question": "26 - 9 + (-17)",
+        "answer": "0"
+    },
+    {
+        "question": "-46 + 46",
+        "answer": "0"
+    },
+    {
+        "question": "100 + (-500)",
+        "answer": "-400"
+    },
+    {
+        "question": "-9 - (-5) + 6",
+        "answer": "2"
+    },
+    {
+        "question": "14 - 42 - 9",
+        "answer": "-37"
+    },
+    {
+        "question": "-6 + 2 - (-16)",
+        "answer": "12"
+    },
+    {
+        "question": "50 - 23 + (-7)",
+        "answer": "20"
+    }
+
+]

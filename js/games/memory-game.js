@@ -1,25 +1,19 @@
 let quetionslist = [];
-let answerKey = {};
+let randomQuestions = [];
 let points = 0;
 let timer = 0;
 let seconds = 0;
 let minutes = 0;
+let q_num = 0;
 let seconds_str = '';
 let minutes_str = '';
 let timer_observer;
 let moves = 0;
 let isCorrect = false;
-let turn = 1;
-let first = '';
-let second = '';
 let isFinished = false;
 let num_correct_answerses = 0;
-let firstbox;
-let secondbox;
 let path = '';
-let unit = '';
-let isPair = true;
-let game = document.getElementById('game');
+const memoryBoard = document.getElementById('memory-board');
 let movesCounter = document.getElementById('movesCounter');
 let time = document.getElementById('timeCount');
 let not_available = document.getElementById('not-avaliable');
@@ -30,183 +24,201 @@ let timerContainer = document.getElementById('timer');
 let memoryGame_header = document.getElementById('memoryGameHeader')
 let start_btn = document.getElementById('start-btn');
 let level_value = '';
+let topic_value = '';
+let grade_value = '';
 let num_of_tries = 0;
+
+class Question {
+    constructor(question, answer, qType = "text", aType = "text") {
+        this.question = question;
+        this.answer = answer;
+        this.qType = qType;
+        this.aType = aType;
+    }
+}
+
 
 function getPath() {
     let grade = document.getElementById("grades");
-    let grade_value = grade.value;
+    grade_value = grade.value;
     let level = document.getElementById("levels");
     level_value = level.value;
-    console.log(level_value);
-    let unit = document.getElementById("units");
-    let unit_value = unit.value;
-    unit = unit_value;
-    path = "../../resources/JSON/" + grade_value + ".json";
+    let topics = document.getElementById("topics");
+    topic_value = topics.value;
+    path = "../../resources/JSON/" + grade_value + "/" + topic_value + ".json";
     return {
+        grade_value,
+        level_value,
         path,
-        unit
+        topic_value
     };
 }
-start_btn.addEventListener('click', function () {
+
+async function handleSubmit(event) {
+    event.preventDefault();
+    document.getElementById("memory-board").classList.remove("hidden");
     not_available.classList.add('hide');
     let loader2 = document.getElementById('loader-2');
     loader2.classList.remove('hide');
-    document.getElementById('game').classList.remove('hide');
-    setTimeout(function () {
+    setTimeout(async function () {
         loader2.classList.add('hide');
         start_btn.style.display = 'none';
         path = getPath().path;
-        unit = getPath().unit;
-        readTextFile(path, function (text) {
-            var data = JSON.parse(text);
-            let q_num = 0;
-            console.log(level_value);
-            if (level_value == "easy") q_num = 6;
-            else if (level_value == "medium") q_num = 8;
-            else if (level_value == "hard" || level_value == "legendary") q_num = 12;
-            try {
-                quetionslist = getRandom(data[unit], q_num);
-                console.log(quetionslist);
-                createGame(quetionslist);
-                createAnswerKey(quetionslist);
-                startWatching(seconds, minutes, quetionslist.length);
-                movesContainer.classList.remove('hide');
-                pointsContainer.classList.remove('hide');
-                timerContainer.classList.remove('hide');
-                memoryGame_header.classList.toggle('hide');
-            } catch (error) {
-                console.log(error);
-                not_available.classList.remove('hide');
-                start_btn.style.display = 'block';
-            }
-        });
-    }, 1000);
+        const topic = getPath().topic_value;
+        const level = getPath().level_value;
+        console.log(level);
 
-
-});
-
-function readTextFile(file, callback) {
-    var rawFile = new XMLHttpRequest();
-    rawFile.overrideMimeType("application/json");
-    rawFile.open("GET", file, true);
-    rawFile.onreadystatechange = function () {
-        if (rawFile.readyState === 4 && rawFile.status == "200") {
-            callback(rawFile.responseText);
-        } else if (rawFile.status == "404") {
+        if (level == "Easy") q_num = 4;
+        else if (level == "Medium") q_num = 6;
+        else if (level == "Hard" || level == "Super Hard") q_num = 8;
+        try {
+            questionList = await fetchQuestions(path, level);
+            randomQuestions = getRandomQuestions(questionList, q_num);
+            createMemoryBoard(memoryBoard, randomQuestions, questionList);
+            startWatching(seconds, minutes, q_num);
+            movesContainer.classList.remove('hide');
+            console.log(q_num);
+            pointsContainer.classList.remove('hide');
+            timerContainer.classList.remove('hide');
+            memoryGame_header.classList.toggle('hide');
+        } catch (error) {
+            console.log(error);
             not_available.classList.remove('hide');
             start_btn.style.display = 'block';
         }
-    }
-    rawFile.send(null);
+    }, 1000);
 }
 
-function createGame(quetions) {
-    let allBoxes = [];
-
-    for (let i = 0; i < quetions.length; i++) {
-        allBoxes.push(createBox(quetions[i]["question"]));
-        allBoxes.push(createBox(quetions[i]["answer"]));
+async function fetchQuestions(path) {
+    try {
+        const response = await fetch(path);
+        const data = await response.json();
+        console.log(data);
+        const questionList = data.map(item => new Question(item.question, item.answer, item.qType, item.aType));
+        return questionList;
+    } catch (error) {
+        console.error('Error fetching questions:', error);
+        return;
     }
-    shuffle(allBoxes);
-    for (let i = 0; i < allBoxes.length; i++) {
-        game.appendChild(allBoxes[i]);
-    }
-    boxClick();
 }
 
-function createBox(text) {
-    let box = document.createElement('div');
-    let flip_box = document.createElement('div');
-    box.classList.add('box');
-    flip_box.classList.add('flip-card-back');
-    let box_text = document.createElement('h1');
-    box_text.setAttribute('id', 'box-text');
-    box_text.innerHTML = text;
-    flip_box.appendChild(box_text);
-    box.appendChild(flip_box);
-    return box;
+function getRandomQuestions(questions, count) {
+    const shuffledQuestions = [...questions];
+    for (let i = questions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [shuffledQuestions[i], shuffledQuestions[j]] = [shuffledQuestions[j], shuffledQuestions[i]];
+    }
+    return shuffledQuestions.slice(0, count);
 }
 
-function boxClick() {
-    let box = document.querySelectorAll('.box');
-    box.forEach(function (b) {
+function createMemoryBoard(memoryBoard, questionPairs) {
+    const cardItems = questionPairs.flatMap(pair => [{
+            text: pair.question,
+            type: pair.qType
+        },
+        {
+            text: pair.answer,
+            type: pair.aType
+        }
+    ]);
+    shuffleArray(cardItems);
+    cardItems.forEach((item, index) => {
+        const card = document.createElement('div');
+        card.classList.add('memory-card');
+        card.dataset.text = item.text;
 
-        b.addEventListener('click', function () {
-            if (isPair && !isFinished) {
-                b.classList.add('flip');
-                if (turn == 1) {
-                    firstbox = b;
-                    first = firstbox.textContent;
-                    turn = 2;
-                } else if (turn == 2) {
-                    isPair = false;
-                    secondbox = b;
-                    second = secondbox.textContent;
-                    if (firstbox == secondbox) return;
-                    if (checkAnswer(first, second)) {
-                        num_correct_answerses++;
-                        points += 10;
-                        pointCounter.innerHTML = points.toString();
-                        isPair = true;
-                    } else {
-                        setTimeout(function () {
-                            firstbox.classList.remove('flip');
-                            secondbox.classList.remove('flip');
-                            isPair = true;
+        let cardContent;
+        console.log(item.type);
+        if (item.type === "image") {
+            const img_path = "../../resources/JSON/" + grade_value + "/" + "images" + "/" + topic_value + "/" + item.text;
+            console.log(img_path);
+                cardContent = `<img src="${img_path}" alt="Image" class="card-img"/>`;
+        } else {
+            cardContent = item.text;
+        }
 
-                            if (level_value == 'legendary') {
-                                box.forEach(function (b) {
-                                    b.classList.remove('flip');
-                                    points = 0;
-                                    pointCounter.innerHTML = points.toString();
-                                    num_correct_answerses = 0;
-                                });
-                            }
-
-                        }, 1000);
-                    }
-                    turn = 1;
-                    first = '';
-                    second = '';
-                }
-                moves = moves + 1;
-                movesCounter.innerHTML = moves;
-            }
-        });
-
-
+        card.innerHTML = `
+            <div class="memory-card-inner">
+                <div class="memory-card-front"></div>
+                <div class="memory-card-back">${cardContent}</div>
+            </div>
+        `;
+        const cardListener = (event) => flipCard(event, questionPairs);
+        card.addEventListener('click', cardListener);
+        card.listener = cardListener;
+        memoryBoard.appendChild(card);
     });
 }
 
-function checkAnswer(first, second) {
-    if (second == answerKey[first]) {
-        return true;
+
+function checkCards(questionPairs) {
+    const flippedCards = document.querySelectorAll('.memory-card.flipped');
+    moves = moves + 1;
+    movesCounter.innerHTML = moves;
+    if (flippedCards.length === 2) {
+        const card1Text = flippedCards[0].dataset.text;
+        const card2Text = flippedCards[1].dataset.text;
+        for (const item of questionPairs) {
+            if ((item.question === card1Text && item.answer === card2Text) || (item.question === card2Text && item.answer === card1Text)) {
+                num_correct_answerses++;
+                flippedCards.forEach(card => {
+                    card.classList.add('matched');
+                    card.removeEventListener('click', card.listener);
+                    points += 10;
+                    pointCounter.innerHTML = points.toString();
+                });
+            } else {
+                setTimeout(() => {
+                    flippedCards.forEach(card => {
+                        card.classList.remove('flipped');
+                    });
+                }, 1000);
+            }
+
+
+        }
     }
-    return false;
 }
 
-function createAnswerKey(answerkeys) {
-    for (let i = 0; i < answerkeys.length; i++) {
-        answerKey[answerkeys[i]["question"]] = answerkeys[i]["answer"];
-        answerKey[answerkeys[i]["answer"]] = answerkeys[i]["question"];
+function flipCard(event, questionPairs) {
+    const flippedCards = document.querySelectorAll('.memory-card.flipped');
+    if (flippedCards.length >= 2) {
+        return;
+    }
+
+    const card = event.currentTarget;
+    card.classList.add('flipped');
+    checkCards(questionPairs);
+}
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
     }
 }
 
-function shuffle(array) {
-    let currentIndex = array.length,
-        randomIndex;
-    while (currentIndex != 0) {
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex--;
-        [array[currentIndex], array[randomIndex]] = [
-            array[randomIndex], array[currentIndex]
-        ];
+function flipCard(event, questionPairs) {
+    const flippedCards = document.querySelectorAll('.memory-card.flipped');
+    if (flippedCards.length >= 2) {
+        return;
     }
-    return array;
+
+    const card = event.currentTarget;
+    card.classList.add('flipped');
+    checkCards(questionPairs);
+}
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
 }
 
 function startWatching(seconds, minutes, l) {
     timer_observer = setInterval(() => {
+        console.log(num_correct_answerses);
         seconds > 58 ? ((minutes += 1), (seconds = 0)) : (seconds += 1);
         seconds_str = seconds > 9 ? `${seconds}` : `0${seconds}`;
         minutes_str = minutes > 9 ? `${minutes}` : `0${minutes}`;
@@ -221,29 +233,18 @@ function startWatching(seconds, minutes, l) {
             document.getElementById('play-again').innerHTML = 'Play Again';
             document.getElementById('play-again').classList.add('play-again-btn');
             document.getElementById('play-again').addEventListener('click', function () {
-                playAgain();
+                playAgain(l);
             });
         }
     }, 1000);
 }
 
-function getRandom(arr, n) {
-    var result = new Array(n),
-        len = arr.length,
-        taken = new Array(len);
-    if (n > len)
-        throw new RangeError("getRandom: more elements taken than available");
-    while (n--) {
-        var x = Math.floor(Math.random() * len);
-        result[n] = arr[x in taken ? taken[x] : x];
-        taken[x] = --len in taken ? taken[len] : len;
-    }
-    return result;
-}
-
-function playAgain() {
+function playAgain(length) {
     num_of_tries++;
-    document.querySelectorAll('.box').forEach(e => e.classList.remove('flip'));
+    document.querySelectorAll('.memory-card-inner').forEach(e => e.classList.remove('matched'));
+    randomQuestions = getRandomQuestions(questionList, q_num);
+    memoryBoard.innerHTML = '';
+    createMemoryBoard(memoryBoard, randomQuestions, questionList);
     points = 0;
     timer = 0;
     seconds = 0;
@@ -254,7 +255,7 @@ function playAgain() {
     first = '';
     second = '';
     isFinished = false;
-    startWatching(seconds, minutes, quetionslist.length);
+    startWatching(seconds, minutes, length);
     pointCounter.innerHTML = points.toString();
     movesCounter.innerHTML = moves;
     document.getElementById('play-again').innerHTML = '';

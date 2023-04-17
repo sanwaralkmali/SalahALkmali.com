@@ -1,0 +1,81 @@
+[{
+        "question": "What is the sum of (2 + 3i) + (4 - 5i)?",
+        "answer": "6 - 2i"
+    },
+    {
+        "question": "What is the difference of (3 + 7i) - (1 + 2i)?",
+        "answer": "2 + 5i"
+    },
+    {
+        "question": "What is the product of (2 + 3i) * (1 - 2i)?",
+        "answer": "8 - i"
+    },
+    {
+        "question": "What is the quotient of (5 + 6i) / (1 + 2i)?",
+        "answer": "2 + 2i"
+    },
+    {
+        "question": "What is the conjugate of 4 + 3i?",
+        "answer": "4 - 3i"
+    },
+    {
+        "question": "What is the sum of (-3 - 2i) + (5 + 3i)?",
+        "answer": "2 + i"
+    },
+    {
+        "question": "What is the difference of (7 - 4i) - (2 + 3i)?",
+        "answer": "5 - 7i"
+    },
+    {
+        "question": "What is the product of (3 - 2i) * (4 + 3i)?",
+        "answer": "18 + 5i"
+    },
+    {
+        "question": "What is the quotient of (2 - 3i) / (1 + i)?",
+        "answer": "-0.5 - 2.5i"
+    },
+    {
+        "question": "What is the conjugate of -3 - 5i?",
+        "answer": "-3 + 5i"
+    },
+    {
+        "question": "What is the sum of (6 - 2i) + (3 + 4i)?",
+        "answer": "9 + 2i"
+    },
+    {
+        "question": "What is the difference of (4 + 8i) - (2 - 3i)?",
+        "answer": "2 + 11i"
+    },
+    {
+        "question": "What is the product of (2 - i) * (3 + 4i)?",
+        "answer": "10 + 5i"
+    },
+    {
+        "question": "What is the quotient of (7 + 4i) / (1 - 3i)?",
+        "answer": "1 + 3i"
+    },
+    {
+        "question": "What is the conjugate of 2 + 7i?",
+        "answer": "2 - 7i"
+    },
+    {
+        "question": "What is the sum of (3 - 5i) + (1 + 6i)?",
+        "answer": "4 + i"
+    },
+    {
+        "question": "What is the difference of (5 + 3i) - (2 - 4i)?",
+        "answer": "3 + 7i"
+    },
+    {
+        "question": "What is the product of (1 - 2i) * (2 + 3i)?",
+        "answer": "8 - i"
+    },
+    {
+        "question": "What is the quotient of (3 + 2i) / (2 - i)?",
+        "answer": "1 + i"
+    },
+    {
+        "question": "What is the conjugate of -1 + 4i?",
+        "answer": "-1 - 4i"
+    }
+]
