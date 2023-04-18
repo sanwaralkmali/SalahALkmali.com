@@ -9,9 +9,6 @@ let seconds_str = '';
 let minutes_str = '';
 let timer_observer;
 let moves = 0;
-let isCorrect = false;
-let isFinished = false;
-let num_correct_answerses = 0;
 let path = '';
 const memoryBoard = document.getElementById('memory-board');
 let movesCounter = document.getElementById('movesCounter');
@@ -26,7 +23,6 @@ let start_btn = document.getElementById('start-btn');
 let level_value = '';
 let topic_value = '';
 let grade_value = '';
-let num_of_tries = 0;
 
 class Question {
     constructor(question, answer, qType = "text", aType = "text") {
@@ -165,7 +161,6 @@ function checkCards(questionPairs) {
                     points += 10;
                     pointCounter.innerHTML = points.toString();
                 });
-                num_correct_answerses++;
 
             } else {
                 setTimeout(() => {
@@ -199,6 +194,8 @@ function resetMatchedCards() {
         card.classList.remove('flipped');
         card.addEventListener('click', card.listener);
     });
+    points = 0;
+    pointCounter.innerHTML = points.toString();
 }
 
 
@@ -230,10 +227,9 @@ function startWatching(seconds, minutes, questionPairs) {
         if (document.querySelectorAll('.memory-card.matched').length === questionPairs.length * 2) {
             setTimeout(() => {
                 clearInterval(timer_observer);
-                isFinished = true;
-                let score = points * 10 - moves;
+                let score = points * 10 - moves*10;
                 let timeInSeconds = minutes * 60 + seconds;
-                score = score - timeInSeconds;
+                score = score - timeInSeconds * 10;
                 pointCounter.innerHTML = score.toString();
                 document.getElementById('play-again').innerHTML = 'Play Again';
                 document.getElementById('play-again').classList.add('play-again-btn');
@@ -246,7 +242,6 @@ function startWatching(seconds, minutes, questionPairs) {
 }
 
 function playAgain(length) {
-    num_of_tries++;
     document.querySelectorAll('.memory-card-inner').forEach(e => e.classList.remove('matched'));
     randomQuestions = getRandomQuestions(questionList, q_num);
     memoryBoard.innerHTML = '';
@@ -256,11 +251,6 @@ function playAgain(length) {
     seconds = 0;
     minutes = 0;
     moves = 0;
-    num_correct_answerses = 0;
-    turn = 1;
-    first = '';
-    second = '';
-    isFinished = false;
     startWatching(seconds, minutes, length);
     pointCounter.innerHTML = points.toString();
     movesCounter.innerHTML = moves;

@@ -1,1 +1,62 @@
-{"file_name": "Subtraction"}
+[
+    {
+        "question": "What is 23 - 7?",
+        "answer": "16",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 37 - 12?",
+        "answer": "25",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 48 - 18?",
+        "answer": "30",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 55 - 17?",
+        "answer": "38",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 34 - 9?",
+        "answer": "25",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 29 - 14?",
+        "answer": "15",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 42 - 19?",
+        "answer": "23",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 39 - 26?",
+        "answer": "13",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 33 - 11?",
+        "answer": "22",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 27 - 15?",
+        "answer": "12",
+        "qType": "text",
+        "aType": "text"
+    }
+]

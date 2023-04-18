@@ -1,1 +1,92 @@
-{"file_name": "Measurement"}
+[{
+        "question": "How many centimeters are in a meter?",
+        "answer": "100",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many millimeters are in a centimeter?",
+        "answer": "10",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many grams are in a kilogram?",
+        "answer": "1000",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which unit of measurement is used to measure the weight of an apple?",
+        "answer": "Grams",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many liters are in a milliliter?",
+        "answer": "0.001",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What unit of measurement is used to measure the volume of a liquid?",
+        "answer": "Liters",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many minutes are in an hour?",
+        "answer": "60",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many seconds are in a minute?",
+        "answer": "60",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which unit of measurement is used to measure temperature?",
+        "answer": "Celsius",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the area of a rectangle with a length of 5 cm and a width of 3 cm?",
+        "answer": "15 square centimeters",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the perimeter of a square with a side length of 4 cm?",
+        "answer": "16 cm",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which unit of measurement is used to measure distance?",
+        "answer": "Meters",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the volume of a cube with a side length of 2 cm?",
+        "answer": "8 cubic centimeters",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which unit of measurement is used to measure the volume of a solid?",
+        "answer": "Cubic centimeters",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many meters are in a kilometer?",
+        "answer": "1000",
+        "qType": "text",
+        "aType": "text"
+    }
+
+]

@@ -1,1 +1,121 @@
-{"file_name": "Fractions"}
+[{
+        "question": "What fraction represents the shaded part of this shape? (3 out of 8 equal parts are shaded)",
+        "answer": "3/8",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 1/2 + 1/2?",
+        "answer": "1",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the numerator in the fraction 4/7?",
+        "answer": "4",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the denominator in the fraction 3/5?",
+        "answer": "5",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What fraction represents half?",
+        "answer": "1/2",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 1/4 of 8?",
+        "answer": "2",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which fraction is greater: 1/3 or 1/2?",
+        "answer": "1/2",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which fraction is equal to 1/4? (2/8, 3/4, or 4/16)",
+        "answer": "2/8",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What fraction is equivalent to 3/9?",
+        "answer": "1/3",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Arrange these fractions in ascending order: 1/2, 2/3, 1/4",
+        "answer": "1/4, 1/2, 2/3",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the simplest form of the fraction 6/12?",
+        "answer": "1/2",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 3/4 of 12?",
+        "answer": "9",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which fraction is smaller: 3/8 or 4/9?",
+        "answer": "3/8",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the sum of 1/3 and 1/6?",
+        "answer": "1/2",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Subtract 1/4 from 3/4.",
+        "answer": "1/2",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 2/3 of 9?",
+        "answer": "6",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the simplest form of the fraction 8/10?",
+        "answer": "4/5",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which fraction is equal to 1/3? (2/6, 3/9, or 4/12)",
+        "answer": "2/6",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the difference between 3/4 and 1/4?",
+        "answer": "1/2",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Multiply 2/5 by 5/6.",
+        "answer": "1/3",
+        "qType": "text",
+        "aType": "text"
+    }
+]

@@ -1,7 +1,0 @@
-[
-    { "equation": "1+1", "solution": "2" },
-    { "equation": "2+3", "solution": "5" },
-    { "equation": "3+3", "solution": "6" },
-    { "equation": "4+4", "solution": "8" },
-    { "equation": "5+5", "solution": "10" }
-]

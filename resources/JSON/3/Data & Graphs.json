@@ -1,1 +1,85 @@
-{"file_name": "Data & Graphs"}
+[{
+        "question": "How many categories are there in a bar graph?",
+        "answer": "Depends on the data",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the most common type of graph?",
+        "answer": "Bar graph",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What does the horizontal axis on a bar graph represent?",
+        "answer": "Categories",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What does the vertical axis on a bar graph represent?",
+        "answer": "Values or frequencies",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What type of graph shows the relationship between two sets of data?",
+        "answer": "Scatter plot",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What type of graph represents parts of a whole?",
+        "answer": "Pie chart",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the term used to describe the average of a set of numbers?",
+        "answer": "Mean",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the term used to describe the middle number in a set of numbers?",
+        "answer": "Median",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the term used to describe the number that appears most often in a set of numbers?",
+        "answer": "Mode",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the term used to describe the difference between the highest and lowest numbers in a set?",
+        "answer": "Range",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "bar_graph_example1.png", 
+        "answer": "Strawberry",
+        "qType": "image",
+        "aType": "text"
+    },
+    {
+        "question": "bar_graph_example2.png", 
+        "answer": "January",
+        "qType": "image",
+        "aType": "text"
+    },
+    {
+        "question": "pie_chart_example1.png", 
+        "answer": "Blue",
+        "qType": "image",
+        "aType": "text"
+    },
+    {
+        "question": "line_graph_example1.png",
+        "answer": "Wednesday",
+        "qType": "image",
+        "aType": "text"
+    }
+]

@@ -1,1 +1,62 @@
-{"file_name": "Counting in 10s"}
+[
+    {
+        "question": "What comes after 10 in counting by 10s?",
+        "answer": "20",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes after 20 in counting by 10s?",
+        "answer": "30",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes after 30 in counting by 10s?",
+        "answer": "40",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes after 40 in counting by 10s?",
+        "answer": "50",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes after 50 in counting by 10s?",
+        "answer": "60",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes after 60 in counting by 10s?",
+        "answer": "70",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes after 70 in counting by 10s?",
+        "answer": "80",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes after 80 in counting by 10s?",
+        "answer": "90",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes after 90 in counting by 10s?",
+        "answer": "100",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the first number when counting by 10s?",
+        "answer": "10",
+        "qType": "text",
+        "aType": "text"
+    }
+]

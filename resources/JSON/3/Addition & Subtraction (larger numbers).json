@@ -1,1 +1,121 @@
-{"file_name": "Addition & Subtraction (larger numbers)"}
+[{
+        "question": "What is the sum of 256 and 389?",
+        "answer": "645",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the difference between 875 and 492?",
+        "answer": "383",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Add 567 and 321.",
+        "answer": "888",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Subtract 435 from 789.",
+        "answer": "354",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the sum of 908 and 104?",
+        "answer": "1012",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the difference between 936 and 415?",
+        "answer": "521",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Add 734 and 293.",
+        "answer": "1027",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Subtract 572 from 954.",
+        "answer": "382",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the sum of 867 and 239?",
+        "answer": "1106",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the difference between 990 and 543?",
+        "answer": "447",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Add 629 and 346.",
+        "answer": "975",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Subtract 824 from 932.",
+        "answer": "108",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the sum of 427 and 359?",
+        "answer": "786",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the difference between 725 and 189?",
+        "answer": "536",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Add 816 and 171.",
+        "answer": "987",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Subtract 384 from 639.",
+        "answer": "255",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the sum of 513 and 487?",
+        "answer": "1000",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the difference between 854 and 375?",
+        "answer": "479",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Add 692 and 307.",
+        "answer": "999",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Subtract 481 from 820.",
+        "answer": "339",
+        "qType": "text",
+        "aType": "text"
+    }
+]

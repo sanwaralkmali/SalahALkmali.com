@@ -1,1 +1,62 @@
-{"file_name": "Patterns"}
+[
+    {
+        "question": "What comes next in the pattern? Circle, Square, Circle, Square, ____",
+        "answer": "Circle",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern? A, B, A, B, ____",
+        "answer": "A",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern? 1, 2, 1, 2, ____",
+        "answer": "1",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern? Red, Blue, Red, Blue, ____",
+        "answer": "Red",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern? Triangle, Rectangle, Triangle, Rectangle, ____",
+        "answer": "Triangle",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern? Up, Down, Up, Down, ____",
+        "answer": "Up",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern? Apple, Banana, Apple, Banana, ____",
+        "answer": "Apple",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern? Cat, Dog, Cat, Dog, ____",
+        "answer": "Cat",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern? Big, Small, Big, Small, ____",
+        "answer": "Big",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern? Sun, Moon, Sun, Moon, ____",
+        "answer": "Sun",
+        "qType": "text",
+        "aType": "text"
+    }
+]

@@ -1,1 +1,62 @@
-{"file_name": "Addition"}
+[
+    {
+        "question": "What is 15 + 7?",
+        "answer": "22",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 28 + 14?",
+        "answer": "42",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 32 + 18?",
+        "answer": "50",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 37 + 25?",
+        "answer": "62",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 40 + 13?",
+        "answer": "53",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 12 + 9?",
+        "answer": "21",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 18 + 19?",
+        "answer": "37",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 23 + 26?",
+        "answer": "49",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 31 + 11?",
+        "answer": "42",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 22 + 15?",
+        "answer": "37",
+        "qType": "text",
+        "aType": "text"
+    }
+]

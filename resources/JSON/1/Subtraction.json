@@ -1,1 +1,122 @@
-{"file_name": "Subtraction"}
+[
+    {
+        "question": "2 - 1",
+        "answer": "1",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "5 - 3",
+        "answer": "2",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "8 - 4",
+        "answer": "4",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "9 - 6",
+        "answer": "3",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "9 - 2",
+        "answer": "7",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "8 - 3",
+        "answer": "5",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "10 - 1",
+        "answer": "9",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "10 - 4",
+        "answer": "6",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "10 - 2",
+        "answer": "8",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "6 - 1",
+        "answer": "5",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "4 - 2",
+        "answer": "2",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "6 - 3",
+        "answer": "3",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "10 - 6",
+        "answer": "4",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "5 - 1",
+        "answer": "4",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "6 - 5",
+        "answer": "1",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "8 - 1",
+        "answer": "7",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "8 - 7",
+        "answer": "1",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "4 - 3",
+        "answer": "1",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "8 - 6",
+        "answer": "2",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "6 - 4",
+        "answer": "2",
+        "qType": "text",
+        "aType": "text"
+    }
+]

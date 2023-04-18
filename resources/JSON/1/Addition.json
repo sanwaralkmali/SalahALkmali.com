@@ -1,1 +1,122 @@
-{"file_name": "Addition"}
+[
+    {
+        "question": "1 + 1",
+        "answer": "2",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "2 + 3",
+        "answer": "5",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "4 + 4",
+        "answer": "8",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "3 + 6",
+        "answer": "9",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "7 + 2",
+        "answer": "9",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "5 + 3",
+        "answer": "8",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "9 + 1",
+        "answer": "10",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "6 + 4",
+        "answer": "10",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "8 + 2",
+        "answer": "10",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "1 + 5",
+        "answer": "6",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "2 + 2",
+        "answer": "4",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "3 + 3",
+        "answer": "6",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "4 + 6",
+        "answer": "10",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "1 + 4",
+        "answer": "5",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "5 + 1",
+        "answer": "6",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "7 + 1",
+        "answer": "8",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "1 + 7",
+        "answer": "8",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "3 + 1",
+        "answer": "4",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "2 + 6",
+        "answer": "8",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "2 + 4",
+        "answer": "6",
+        "qType": "text",
+        "aType": "text"
+    }
+]

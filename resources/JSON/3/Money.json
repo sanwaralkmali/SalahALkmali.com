@@ -1,1 +1,122 @@
-{"file_name": "Money"}
+[{
+        "question": "How much is a quarter worth?",
+        "answer": "25 cents",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many cents are in a dollar?",
+        "answer": "100 cents",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "You have two $5 bills and three $1 bills. How much money do you have?",
+        "answer": "$13",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many nickels make a dollar?",
+        "answer": "20 nickels",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "coins_1_1_1_5_10.png", 
+        "answer": "41 cents",
+        "qType": "image",
+        "aType": "text"
+    },
+    {
+        "question": "How much is a dime worth?",
+        "answer": "10 cents",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "coins_2_5_10.png", 
+        "answer": "20 cents",
+        "qType": "image",
+        "aType": "text"
+    },
+    {
+        "question": "How much is a penny worth?",
+        "answer": "1 cent",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "If you have three dimes and two nickels, how much money do you have?",
+        "answer": "40 cents",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many quarters make a dollar?",
+        "answer": "4 quarters",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the total value of two $10 bills and one $5 bill?",
+        "answer": "$25",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "If you have four quarters, how much money do you have?",
+        "answer": "$1",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "coins_5_1_1_10_25.png", 
+        "answer": "42 cents",
+        "qType": "image",
+        "aType": "text"
+    },
+    {
+        "question": "How many dimes make a dollar?",
+        "answer": "10 dimes",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "coins_2_2_10.png", 
+        "answer": "12 cents",
+        "qType": "image",
+        "aType": "text"
+    },
+    {
+        "question": "How much is a nickel worth?",
+        "answer": "5 cents",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+
+        "question": "coins_1_1_5_10_25_50.png",
+        "answer": "91 cents",
+        "qType": "image",
+        "aType": "text"
+    },
+    {
+        "question": "If you have five $1 bills, how much money do you have?",
+        "answer": "$5",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "coins_3_1_1_5_10_25.png",
+        "answer": "43 cents",
+        "qType": "image",
+        "aType": "text"
+    },
+    {
+        "question": "How many pennies make a dollar?",
+        "answer": "100 pennies",
+        "qType": "text",
+        "aType": "text"
+    }
+]

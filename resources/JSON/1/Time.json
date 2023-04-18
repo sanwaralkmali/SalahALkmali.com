@@ -1,1 +1,121 @@
-{"file_name": "Time"}
+[{
+        "question": "What time is it when the hour hand is on 1 and the minute hand is on 12?",
+        "answer": "1:00",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What time is it when the hour hand is on 2 and the minute hand is on 12?",
+        "answer": "2:00",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What time is it when the hour hand is on 3 and the minute hand is on 12?",
+        "answer": "3:00",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What time is it when the hour hand is on 4 and the minute hand is on 12?",
+        "answer": "4:00",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What time is it when the hour hand is on 5 and the minute hand is on 12?",
+        "answer": "5:00",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What time is it when the hour hand is on 6 and the minute hand is on 12?",
+        "answer": "6:00",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What time is it when the hour hand is on 7 and the minute hand is on 12?",
+        "answer": "7:00",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What time is it when the hour hand is on 8 and the minute hand is on 12?",
+        "answer": "8:00",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What time is it when the hour hand is on 9 and the minute hand is on 12?",
+        "answer": "9:00",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What time is it when the hour hand is on 10 and the minute hand is on 12?",
+        "answer": "10:00",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What time is it when the hour hand is on 11 and the minute hand is on 12?",
+        "answer": "11:00",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What time is it when the hour hand is on 12 and the minute hand is on 12?",
+        "answer": "12:00",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many hours are there in a day?",
+        "answer": "24",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many minutes are there in an hour?",
+        "answer": "60",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many seconds are there in a minute?",
+        "answer": "60",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What are the two hands on a clock called?",
+        "answer": "Hour hand and minute hand",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which hand moves faster on a clock?",
+        "answer": "Minute hand",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many times does the minute hand go around the clock in one hour?",
+        "answer": "1",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many times does the hour hand go around the clock in one day?",
+        "answer": "2",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "If it is 2:00 now, what time will it be in 3 hours?",
+        "answer": "5:00",
+        "qType": "text",
+        "aType": "text"
+    }
+]

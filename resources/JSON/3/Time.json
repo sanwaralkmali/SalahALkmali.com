@@ -1,1 +1,121 @@
-{"file_name": "Time"}
+[
+    {
+    "question": "clock_3_15.png", 
+    "answer": "3:15",
+    "qType": "image",
+    "aType": "text"
+    },
+    {
+    "question": "clock_9_30.png", 
+    "answer": "9:30",
+    "qType": "image",
+    "aType": "text"
+    },
+    {
+    "question": "clock_6_00.png", 
+    "answer": "6:00",
+    "qType": "image",
+    "aType": "text"
+    },
+    {
+    "question": "clock_12_45.png", 
+    "answer": "12:45",
+    "qType": "image",
+    "aType": "text"
+    },
+    {
+    "question": "clock_5_10.png", 
+    "answer": "5:10",
+    "qType": "image",
+    "aType": "text"
+    },
+    {
+    "question": "clock_1_50.png", 
+    "answer": "1:50",
+    "qType": "image",
+    "aType": "text"
+    },
+    {
+    "question": "clock_7_20.png", 
+    "answer": "7:20",
+    "qType": "image",
+    "aType": "text"
+    },
+    {
+    "question": "clock_10_25.png", 
+    "answer": "10:25",
+    "qType": "image",
+    "aType": "text"
+    },
+    {
+    "question": "clock_4_35.png", 
+    "answer": "4:35",
+    "qType": "image",
+    "aType": "text"
+    },
+    {
+    "question": "clock_11_05.png", 
+    "answer": "11:05",
+    "qType": "image",
+    "aType": "text"
+    },
+    {
+    "question": "clock_2_40.png", 
+    "answer": "2:40",
+    "qType": "image",
+    "aType": "text"
+    },
+    {
+    "question": "clock_8_15.png", 
+    "answer": "8:15",
+    "qType": "image",
+    "aType": "text"
+    },
+    {
+    "question": "clock_3_30.png", 
+    "answer": "3:30",
+    "qType": "image",
+    "aType": "text"
+    },
+    {
+    "question": "clock_9_45.png", 
+    "qType": "image",
+    "aType": "text"
+    },
+    {
+    "question": "clock_6_55.png", 
+    "answer": "6:55",
+    "qType" :"image",
+    "aType": "text"
+},
+{
+    "question": "clock_12_20.png", 
+    "answer": "12:20",
+    "qType": "image",
+    "aType": "text"
+},
+{
+    "question": "clock_5_05.png", 
+    "answer": "5:05",
+    "qType": "image",
+    "aType": "text"
+},
+{
+    "question": "clock_1_25.png", 
+    "answer": "1:25",
+    "qType": "image",
+    "aType": "text"
+},
+{
+    "question": "clock_7_50.png", 
+    "answer": "7:50",
+    "qType": "image",
+    "aType": "text"
+},
+{
+    "question": "clock_10_10.png", 
+    "answer": "10:10",
+    "qType": "image",
+    "aType": "text"
+}
+]

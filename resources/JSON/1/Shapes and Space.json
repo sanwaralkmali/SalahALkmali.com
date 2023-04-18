@@ -1,105 +1,121 @@
 [{
-        "question": "Heart",
-        "answer": "heart.png ",
-        "qType": "text",
-        "aType": "image"
-    }, {
         "question": "Circle",
-        "answer": "full-moon.png",
+        "answer": "circle.png",
         "qType": "text",
         "aType": "image"
-    }, {
+    },
+    {
         "question": "Square",
         "answer": "square.png",
         "qType": "text",
         "aType": "image"
-    }, {
+    },
+    {
         "question": "Rectangle",
         "answer": "rectangle.png",
         "qType": "text",
         "aType": "image"
-    }, {
-        "question": "Triangel",
+    },
+    {
+        "question": "Triangle",
         "answer": "triangle.png",
         "qType": "text",
         "aType": "image"
     },
     {
-        "question": "Heart",
-        "answer": "heart.png ",
-        "qType": "text",
-        "aType": "image"
-    }, {
-        "question": "Circle",
-        "answer": "full-moon.png",
-        "qType": "text",
-        "aType": "image"
-    }, {
-        "question": "Square",
-        "answer": "square.png",
-        "qType": "text",
-        "aType": "image"
-    }, {
-        "question": "Rectangle",
-        "answer": "rectangle.png",
-        "qType": "text",
-        "aType": "image"
-    }, {
-        "question": "Triangel",
-        "answer": "triangle.png",
+        "question": "Pentagon",
+        "answer": "pentagon.png",
         "qType": "text",
         "aType": "image"
     },
     {
-        "question": "Heart",
-        "answer": "heart.png ",
-        "qType": "text",
-        "aType": "image"
-    }, {
-        "question": "Circle",
-        "answer": "full-moon.png",
-        "qType": "text",
-        "aType": "image"
-    }, {
-        "question": "Square",
-        "answer": "square.png",
-        "qType": "text",
-        "aType": "image"
-    }, {
-        "question": "Rectangle",
-        "answer": "rectangle.png",
-        "qType": "text",
-        "aType": "image"
-    }, {
-        "question": "Triangel",
-        "answer": "triangle.png",
+        "question": "Hexagon",
+        "answer": "hexagon.png",
         "qType": "text",
         "aType": "image"
     },
     {
-        "question": "Heart",
-        "answer": "heart.png ",
+        "question": "Octagon",
+        "answer": "octagon.png",
         "qType": "text",
         "aType": "image"
-    }, {
-        "question": "Circle",
-        "answer": "full-moon.png",
+    },
+    {
+        "question": "Sphere",
+        "answer": "sphere.png",
         "qType": "text",
         "aType": "image"
-    }, {
-        "question": "Square",
-        "answer": "square.png",
+    },
+    {
+        "question": "Cone",
+        "answer": "cone.png",
         "qType": "text",
         "aType": "image"
-    }, {
-        "question": "Rectangle",
-        "answer": "rectangle.png",
+    },
+    {
+        "question": "Cube",
+        "answer": "cube.png",
         "qType": "text",
         "aType": "image"
-    }, {
-        "question": "Triangel",
-        "answer": "triangle.png",
+    },
+    {
+        "question": "How many corners does a square have?",
+        "answer": "4",
         "qType": "text",
-        "aType": "image"
+        "aType": "text"
+    },
+    {
+        "question": "How many sides does a triangle have?",
+        "answer": "3",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What shape has 6 equal sides?",
+        "answer": "Hexagon",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What shape has 5 equal sides?",
+        "answer": "Pentagon",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many faces does a cube have?",
+        "answer": "6",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many edges does a rectangular prism have?",
+        "answer": "12",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What 3D shape has one flat circle and a curved surface?",
+        "answer": "Cone",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many vertices does a pyramid have?",
+        "answer": "5",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is a 3D shape with all faces being squares?",
+        "answer": "Cube",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What shape has no vertices and no edges?",
+        "answer": "Sphere",
+        "qType": "text",
+        "aType": "text"
     }
 ]

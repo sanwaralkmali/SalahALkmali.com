@@ -1,1 +1,92 @@
-{"file_name": "Measurement"}
+[
+    {
+        "question": "Which unit is used to measure length?",
+        "answer": "meter",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which unit is used to measure weight?",
+        "answer": "kilogram",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which unit is used to measure volume?",
+        "answer": "liter",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which unit is smaller, centimeter or meter?",
+        "answer": "centimeter",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many centimeters are in a meter?",
+        "answer": "100",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which is heavier, 1 kilogram or 1 gram?",
+        "answer": "1 kilogram",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many grams are in a kilogram?",
+        "answer": "1000",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many milliliters are in a liter?",
+        "answer": "1000",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What tool can be used to measure length?",
+        "answer": "ruler",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What tool can be used to measure weight?",
+        "answer": "scale",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What tool can be used to measure volume?",
+        "answer": "measuring cup",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which is longer, 1 meter or 1 yard?",
+        "answer": "1 meter",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What unit is used to measure temperature?",
+        "answer": "degree Celsius",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the freezing point of water in degree Celsius?",
+        "answer": "0",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the boiling point of water in degree Celsius?",
+        "answer": "100",
+        "qType": "text",
+        "aType": "text"
+    }
+]

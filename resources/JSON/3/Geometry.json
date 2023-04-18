@@ -1,1 +1,123 @@
-{"file_name": "Geometry"}
+[
+    {
+        "question": "What is the name of a shape with 3 sides?",
+        "answer": "Triangle",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the name of a shape with 4 equal sides?",
+        "answer": "Square",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many vertices does a cube have?",
+        "answer": "8",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "A shape with five sides is called a?",
+        "answer": "Pentagon",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which shape has six sides?",
+        "answer": "Hexagon",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many lines of symmetry does a rectangle have?",
+        "answer": "2",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many degrees are there in a straight angle?",
+        "answer": "180",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many degrees are there in a right angle?",
+        "answer": "90",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the total number of degrees in a triangle?",
+        "answer": "180",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the total number of degrees in a quadrilateral?",
+        "answer": "360",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Circle",
+        "answer": "circle.png",
+        "qType": "image", 
+        "aType": "text"
+    },
+    {
+        "question": "Rhombus",
+        "answer": "rhombus.png",
+        "qType": "image", 
+        "aType": "text"
+    },
+    {
+        "question": "Oval",
+        "answer": "oval.png",
+        "qType": "image", 
+        "aType": "text"
+    },
+    {
+        "question": "Equilateral Triangle",
+        "answer": "equilateral.png",
+        "qType": "image", 
+        "aType": "text"
+    },
+    {
+        "question": "Isosceles Triangle",
+        "answer": "isosceles.png",
+        "qType": "image", 
+        "aType": "text"
+    },
+    {
+        "question": "Scalene Triangle",
+        "answer": "scalene.png",
+        "qType": "image", 
+        "aType": "text"
+    },
+    {
+        "question": "Acute Angel",
+        "answer": "acute.png",
+        "qType": "image", 
+        "aType": "text"
+    },
+    {
+        "question": "Obtuse Angel",
+        "answer": "obtuse.png",
+        "qType": "image", 
+        "aType": "text"
+    },
+    {
+        "question": "Right Angel",
+        "answer": "right-angle.png",
+        "qType": "image", 
+        "aType": "text"
+    },
+    {
+        "question": "Cylinder",
+        "answer": "cylinder.png",
+        "qType": "image",
+        "aType": "text"
+    }
+]
+

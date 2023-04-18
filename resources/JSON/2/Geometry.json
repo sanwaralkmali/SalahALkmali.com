@@ -1,1 +1,61 @@
-{"file_name": "Geometry"}
+[{
+        "question": "What shape has 3 sides?",
+        "answer": "Triangle",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What shape has 4 equal sides?",
+        "answer": "Square",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What shape has no corners?",
+        "answer": "Circle",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which shape has 6 sides?",
+        "answer": "Hexagon",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Identify the shape in the image.",
+        "answer": "Rhombus",
+        "qType": "image",
+        "aType": "text"
+    },
+    {
+        "question": "Identify the shape in the image.",
+        "answer": "Pentagon",
+        "qType": "image",
+        "aType": "text"
+    },
+    {
+        "question": "Identify the shape in the image.",
+        "answer": "Octagon",
+        "qType": "image",
+        "aType": "text"
+    },
+    {
+        "question": "Identify the shape in the image.",
+        "answer": "Rectangle",
+        "qType": "image",
+        "aType": "text"
+    },
+    {
+        "question": "Identify the shape in the image.",
+        "answer": "Trapezoid",
+        "qType": "image",
+        "aType": "text"
+    },
+    {
+        "question": "Identify the shape in the image.",
+        "answer": "Parallelogram",
+        "qType": "image",
+        "aType": "text"
+    }
+]

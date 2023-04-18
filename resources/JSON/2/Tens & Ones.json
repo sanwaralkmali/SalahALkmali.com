@@ -1,1 +1,121 @@
-{"file_name": "Tens & Ones"}
+[{
+        "question": "How many tens are in 35?",
+        "answer": "3",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many ones are in 48?",
+        "answer": "8",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the value of the digit 2 in the number 72?",
+        "answer": "2",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the value of the digit 5 in the number 53?",
+        "answer": "50",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many tens and ones are in the number 89?",
+        "answer": "8 tens and 9 ones",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many tens and ones are in the number 26?",
+        "answer": "2 tens and 6 ones",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which number has 7 tens and 4 ones?",
+        "answer": "74",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which number has 3 tens and 2 ones?",
+        "answer": "32",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many tens are in 61?",
+        "answer": "6",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many ones are in 99?",
+        "answer": "9",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the value of the digit 9 in the number 92?",
+        "answer": "90",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the value of the digit 1 in the number 21?",
+        "answer": "1",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many tens and ones are in the number 47?",
+        "answer": "4 tens and 7 ones",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many tens and ones are in the number 15?",
+        "answer": "1 ten and 5 ones",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which number has 9 tens and 3 ones?",
+        "answer": "93",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which number has 4 tens and 8 ones?",
+        "answer": "48",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many tens are in 70?",
+        "answer": "7",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many ones are in 44?",
+        "answer": "4",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the value of the digit 6 in the number 68?",
+        "answer": "60",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the value of the digit 3 in the number 13?",
+        "answer": "3",
+        "qType": "text",
+        "aType": "text"
+    }
+]

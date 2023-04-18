@@ -1,1 +1,62 @@
-{"file_name": "Lines"}
+[
+    {
+        "question": "What type of line is straight and goes on forever in both directions?",
+        "answer": "Line",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What type of line goes from one point to another?",
+        "answer": "Line segment",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What type of line is curved and goes on forever in both directions?",
+        "answer": "Curved line",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What type of lines never cross or touch each other?",
+        "answer": "Parallel lines",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What type of lines cross or touch each other at a right angle?",
+        "answer": "Perpendicular lines",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "lines-01.png", 
+        "answer": "Parallel lines",
+        "qType": "image",
+        "aType": "text"
+    },
+    {
+        "question": "lines-02.png", 
+        "answer": "Perpendicular lines",
+        "qType": "image",
+        "aType": "text"
+    },
+    {
+        "question": "lines-03.png", 
+        "answer": "Line",
+        "qType": "image",
+        "aType": "text"
+    },
+    {
+        "question": "lines-04.png", 
+        "answer": "Line segment",
+        "qType": "image",
+        "aType": "text"
+    },
+    {
+        "question": "lines-05.png", 
+        "answer": "Curved line",
+        "qType": "image",
+        "aType": "text"
+    }
+]

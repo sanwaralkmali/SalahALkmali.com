@@ -1,1 +1,62 @@
-{"file_name": "Counting in groups"}
+[
+    {
+        "question": "If there are 5 groups of 3 apples each, how many apples are there in total?",
+        "answer": "15",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "If there are 4 groups of 6 oranges each, how many oranges are there in total?",
+        "answer": "24",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "If there are 8 groups of 4 cherries each, how many cherries are there in total?",
+        "answer": "32",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "If there are 6 groups of 7 pencils each, how many pencils are there in total?",
+        "answer": "42",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "If there are 3 groups of 10 balloons each, how many balloons are there in total?",
+        "answer": "30",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "If there are 9 groups of 2 books each, how many books are there in total?",
+        "answer": "18",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "If there are 7 groups of 3 cookies each, how many cookies are there in total?",
+        "answer": "21",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "If there are 10 groups of 5 candies each, how many candies are there in total?",
+        "answer": "50",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "If there are 2 groups of 8 marbles each, how many marbles are there in total?",
+        "answer": "16",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "If there are 4 groups of 9 stickers each, how many stickers are there in total?",
+        "answer": "36",
+        "qType": "text",
+        "aType": "text"
+    }
+]

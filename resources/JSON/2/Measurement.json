@@ -1,1 +1,121 @@
-{"file_name": "Measurement"}
+[{
+        "question": "How many centimeters are in a meter?",
+        "answer": "100",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many meters are in a kilometer?",
+        "answer": "1000",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many millimeters are in a centimeter?",
+        "answer": "10",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which unit of length is the smallest: millimeter, centimeter, or meter?",
+        "answer": "millimeter",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which unit of length is the largest: kilometer, meter, or centimeter?",
+        "answer": "kilometer",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "If a pencil is 15 centimeters long, how many millimeters is it?",
+        "answer": "150",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many liters are in a kiloliter?",
+        "answer": "1000",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many grams are in a kilogram?",
+        "answer": "1000",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which unit of weight is the smallest: gram, kilogram, or milligram?",
+        "answer": "milligram",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which unit of weight is the largest: gram, kilogram, or milligram?",
+        "answer": "kilogram",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many minutes are in an hour?",
+        "answer": "60",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many seconds are in a minute?",
+        "answer": "60",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many hours are in a day?",
+        "answer": "24",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many days are in a week?",
+        "answer": "7",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many weeks are in a year?",
+        "answer": "52",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many months are in a year?",
+        "answer": "12",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many years are in a decade?",
+        "answer": "10",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many years are in a century?",
+        "answer": "100",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many ounces are in a pound?",
+        "answer": "16",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many feet are in a mile?",
+        "answer": "5280",
+        "qType": "text",
+        "aType": "text"
+    }
+]

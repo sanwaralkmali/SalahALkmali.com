@@ -1,1 +1,121 @@
-{"file_name": "Multiplication"}
+[{
+        "question": "What is 3 x 4?",
+        "answer": "12",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 5 x 6?",
+        "answer": "30",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 7 x 8?",
+        "answer": "56",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 9 x 3?",
+        "answer": "27",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 10 x 4?",
+        "answer": "40",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 2 x 8?",
+        "answer": "16",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 5 x 9?",
+        "answer": "45",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 6 x 7?",
+        "answer": "42",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 7 x 5?",
+        "answer": "35",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 10 x 8?",
+        "answer": "80",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 4 x 7?",
+        "answer": "28",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 8 x 5?",
+        "answer": "40",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 3 x 6?",
+        "answer": "18",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 9 x 2?",
+        "answer": "18",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 10 x 3?",
+        "answer": "30",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 2 x 9?",
+        "answer": "18",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 6 x 4?",
+        "answer": "24",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 5 x 8?",
+        "answer": "40",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 7 x 3?",
+        "answer": "21",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 10 x 2?",
+        "answer": "20",
+        "qType": "text",
+        "aType": "text"
+    }
+]

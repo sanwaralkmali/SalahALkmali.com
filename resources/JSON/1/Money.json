@@ -1,1 +1,92 @@
-{"file_name": "Money"}
+[
+    {
+        "question": "Penny",
+        "answer": "penny.png",
+        "qType": "text",
+        "aType": "image"
+    },
+    {
+        "question": "Nickel",
+        "answer": "nickel.png",
+        "qType": "text",
+        "aType": "image"
+    },
+    {
+        "question": "Dime",
+        "answer": "dime.png",
+        "qType": "text",
+        "aType": "image"
+    },
+    {
+        "question": "Quarter",
+        "answer": "quarter.png",
+        "qType": "text",
+        "aType": "image"
+    },
+    {
+        "question": "Dollar",
+        "answer": "dollar.png",
+        "qType": "text",
+        "aType": "image"
+    },
+    {
+        "question": "How many pennies are equal to one dollar?",
+        "answer": "100",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many nickels are equal to one dollar?",
+        "answer": "20",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many dimes are equal to one dollar?",
+        "answer": "10",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many quarters are equal to one dollar?",
+        "answer": "4",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What coin is worth 5 cents?",
+        "answer": "Nickel",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What coin is worth 10 cents?",
+        "answer": "Dime",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What coin is worth 25 cents?",
+        "answer": "Quarter",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the smallest US coin?",
+        "answer": "Penny",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "If you have two quarters and one dime, how much money do you have?",
+        "answer": "60 cents",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "If you have three dimes and four nickels, how much money do you have?",
+        "answer": "40 cents",
+        "qType": "text",
+        "aType": "text"
+    }
+]
