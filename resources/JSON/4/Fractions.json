@@ -1,1 +1,121 @@
-{"file_name": "Fractions"}
+[{
+        "question": "What is the sum of 1/4 and 1/4?",
+        "answer": "1/2",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the difference between 3/4 and 1/4?",
+        "answer": "1/2",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the product of 2/3 and 3/4?",
+        "answer": "1/2",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the quotient of 3/4 divided by 1/2?",
+        "answer": "3/2",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the simplest form of 6/8?",
+        "answer": "3/4",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which fraction is equivalent to 2/3?",
+        "answer": "4/6",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the mixed number of 8/3?",
+        "answer": "2 2/3",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the improper fraction of 3 1/4?",
+        "answer": "13/4",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which fraction is larger: 3/5 or 2/3?",
+        "answer": "2/3",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which fraction is smaller: 5/6 or 3/4?",
+        "answer": "3/4",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the least common multiple of 4 and 6?",
+        "answer": "12",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the sum of 2/5 and 1/3?",
+        "answer": "11/15",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the difference between 7/10 and 1/5?",
+        "answer": "3/5",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the product of 5/6 and 2/3?",
+        "answer": "5/9",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the quotient of 5/8 divided by 3/5?",
+        "answer": "25/24",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the simplest form of 12/16?",
+        "answer": "3/4",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which fraction is equivalent to 4/7?",
+        "answer": "8/14",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the mixed number of 11/4?",
+        "answer": "2 3/4",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the improper fraction of 2 1/3?",
+        "answer": "7/3",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which fraction is larger: 7/8 or 5/6?",
+        "answer": "7/8",
+        "qType": "text",
+        "aType": "text"
+    }
+]

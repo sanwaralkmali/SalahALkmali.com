@@ -1,1 +1,121 @@
-{"file_name": "Decimals"}
+[{
+        "question": "What is the decimal form of 4/5?",
+        "answer": "0.8",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the decimal form of 1/2?",
+        "answer": "0.5",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the decimal form of 3/4?",
+        "answer": "0.75",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the decimal form of 9/10?",
+        "answer": "0.9",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the fraction form of 0.25?",
+        "answer": "1/4",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the fraction form of 0.5?",
+        "answer": "1/2",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the fraction form of 0.75?",
+        "answer": "3/4",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the fraction form of 0.2?",
+        "answer": "1/5",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the sum of 0.2 and 0.7?",
+        "answer": "0.9",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the difference between 0.8 and 0.3?",
+        "answer": "0.5",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the product of 0.5 and 0.6?",
+        "answer": "0.3",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the quotient of 0.6 divided by 0.2?",
+        "answer": "3",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which decimal is larger: 0.45 or 0.5?",
+        "answer": "0.5",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which decimal is smaller: 0.7 or 0.72?",
+        "answer": "0.7",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the decimal form of 7/8?",
+        "answer": "0.875",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the decimal form of 3/8?",
+        "answer": "0.375",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the decimal form of 5/6?",
+        "answer": "0.833",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the decimal form of 11/20?",
+        "answer": "0.55",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which decimal is larger: 0.123 or 0.111?",
+        "answer": "0.123",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which decimal is smaller: 0.99 or 0.999?",
+        "answer": "0.99",
+        "qType": "text",
+        "aType": "text"
+    }
+]

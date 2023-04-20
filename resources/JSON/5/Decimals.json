@@ -1,1 +1,121 @@
-{"file_name": "Decimals"}
+[{
+        "question": "What is 0.3 + 0.45?",
+        "answer": "0.75",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 0.52 - 0.14?",
+        "answer": "0.38",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 0.7 * 0.5?",
+        "answer": "0.35",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 1.5 ÷ 0.5?",
+        "answer": "3",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Write 2/5 as a decimal.",
+        "answer": "0.4",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Write 0.6 as a fraction.",
+        "answer": "3/5",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Round 0.79 to the nearest tenth.",
+        "answer": "0.8",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Round 0.934 to the nearest hundredth.",
+        "answer": "0.93",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Convert 7.25 to a mixed number.",
+        "answer": "7 1/4",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Convert 3 3/10 to a decimal.",
+        "answer": "3.3",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 0.08 * 100?",
+        "answer": "8",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 4.5 ÷ 100?",
+        "answer": "0.045",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 0.75 as a percentage?",
+        "answer": "75%",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 40% as a decimal?",
+        "answer": "0.4",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which is greater: 0.25 or 0.125?",
+        "answer": "0.25",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Which is smaller: 0.6 or 0.65?",
+        "answer": "0.6",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Order these decimals from smallest to largest: 0.3, 0.15, 0.45",
+        "answer": "0.15, 0.3, 0.45",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Order these decimals from largest to smallest: 0.72, 0.9, 0.7",
+        "answer": "0.9, 0.72, 0.7",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Add 0.58 and 2.09",
+        "answer": "2.67",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Subtract 0.035 from 0.5",
+        "answer": "0.465",
+        "qType": "text",
+        "aType": "text"
+    }
+]

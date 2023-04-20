@@ -1,1 +1,122 @@
-{"file_name": "Multi-digit Multiplication"}
+[
+    {
+        "question": "23 x 4",
+        "answer": "92",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "17 x 6",
+        "answer": "102",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "15 x 12",
+        "answer": "180",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "35 x 7",
+        "answer": "245",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "24 x 5",
+        "answer": "120",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "29 x 3",
+        "answer": "87",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "11 x 18",
+        "answer": "198",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "21 x 14",
+        "answer": "294",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "19 x 9",
+        "answer": "171",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "32 x 8",
+        "answer": "256",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "42 x 4",
+        "answer": "168",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "27 x 6",
+        "answer": "162",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "16 x 15",
+        "answer": "240",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "39 x 5",
+        "answer": "195",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "25 x 12",
+        "answer": "300",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "36 x 3",
+        "answer": "108",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "31 x 7",
+        "answer": "217",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "14 x 13",
+        "answer": "182",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "22 x 11",
+        "answer": "242",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "45 x 6",
+        "answer": "270",
+        "qType": "text",
+        "aType": "text"
+    }
+]

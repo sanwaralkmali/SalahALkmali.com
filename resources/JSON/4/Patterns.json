@@ -1,1 +1,121 @@
-{"file_name": "Patterns"}
+[{
+        "question": "What comes next in the pattern: 2, 4, 6, 8, ...?",
+        "answer": "10",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern: 5, 10, 15, 20, ...?",
+        "answer": "25",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern: 3, 6, 9, 12, ...?",
+        "answer": "15",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern: 7, 14, 21, 28, ...?",
+        "answer": "35",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern: 10, 20, 30, 40, ...?",
+        "answer": "50",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern: 100, 200, 300, 400, ...?",
+        "answer": "500",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern: A, B, C, D, ...?",
+        "answer": "E",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern: Z, Y, X, W, ...?",
+        "answer": "V",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern: 1, 4, 7, 10, ...?",
+        "answer": "13",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern: 5, 8, 11, 14, ...?",
+        "answer": "17",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern: 1, 3, 5, 7, ...?",
+        "answer": "9",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern: 2, 5, 8, 11, ...?",
+        "answer": "14",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern: 10, 20, 40, 80, ...?",
+        "answer": "160",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern: 1, 2, 4, 8, ...?",
+        "answer": "16",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern: 1000, 2000, 4000, 8000, ...?",
+        "answer": "16000",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern: 1, 1, 2, 3, 5, ...?",
+        "answer": "8",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern: 3, 6, 12, 24, ...?",
+        "answer": "48",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern: 1, 4, 9, 16, ...?",
+        "answer": "25",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern: 1, 8, 27, 64, ...?",
+        "answer": "125",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What comes next in the pattern: 2, 4, 8, 16, ...?",
+        "answer": "32",
+        "qType": "text",
+        "aType": "text"
+    }
+]

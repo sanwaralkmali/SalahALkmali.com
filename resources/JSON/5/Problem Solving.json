@@ -1,1 +1,121 @@
-{"file_name": "Problem Solving"}
+[{
+        "question": "Sally has 20 apples. She gives 5 apples to her friend. How many apples does she have left?",
+        "answer": "15",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Tom has 48 candies. He wants to divide them equally among 6 friends. How many candies will each friend get?",
+        "answer": "8",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "A toy store sells 15 toys every hour. How many toys will the store sell in 5 hours?",
+        "answer": "75",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "A train travels at 60 miles per hour. How far will the train travel in 4 hours?",
+        "answer": "240",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "A book has 25 pages. John reads 5 pages every day. How many days will it take John to finish reading the book?",
+        "answer": "5",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "A rectangular room is 10 feet wide and 15 feet long. What is the area of the room?",
+        "answer": "150",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "A pizza has 8 slices. Each slice costs $2. How much does the whole pizza cost?",
+        "answer": "$16",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Lily has 7 marbles. She wants to share them equally with her 3 friends. How many marbles will each friend get?",
+        "answer": "2",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "A bakery sells 4 types of pastries. Each type of pastry comes in a box of 6. How many pastries are there in total?",
+        "answer": "24",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "A water bottle can hold 500 milliliters of water. If it is filled with 250 milliliters of water, how much more water can be added?",
+        "answer": "250",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "A store sells pencils in packs of 12. If a student buys 3 packs, how many pencils does the student have in total?",
+        "answer": "36",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "There are 24 students in a class. The teacher wants to divide the students into 4 equal groups. How many students will be in each group?",
+        "answer": "6",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "A store sells 30 books per day. How many books will the store sell in a week?",
+        "answer": "210",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "A car travels 90 miles in 3 hours. How many miles does the car travel in 1 hour?",
+        "answer": "30",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "If a movie ticket costs $9 and a popcorn costs $4, how much will it cost for 2 people to watch the movie and buy popcorn?",
+        "answer": "$26",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "A farmer has 18 chickens and 6 cows. How many legs are there in total?",
+        "answer": "60",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Anna bought a dress for $45 and a pair of shoes for $35. How much did she spend in total?",
+        "answer": "$80",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "A box contains 5 red balls and 3 blue balls. What fraction of the balls are red?",
+        "answer": "5/8",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "A bicycle has a front wheel with a diameter of 20 inches and a rear wheel with a diameter of 24 inches. What is the difference in the diameter of the two wheels?",
+        "answer": "4",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Sam has 3 quarters, 2 dimes, and 5 pennies. How much money does Sam have in total?",
+        "answer": "$0.90",
+        "qType": "text",
+        "aType": "text"
+    }
+]

@@ -1,1 +1,153 @@
-{"file_name": "Measurement"}
+[{
+        "question": "What is the metric unit of length?",
+        "answer": "Meter",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the metric unit of weight?",
+        "answer": "Gram",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the metric unit of capacity?",
+        "answer": "Liter",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the standard unit of measurement for time?",
+        "answer": "Seconds",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the standard unit of measurement for mass?",
+        "answer": "Kilogram",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the standard unit of measurement for temperature?",
+        "answer": "Celsius",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many millimeters are in a centimeter?",
+        "answer": "10",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many centimeters are in a meter?",
+        "answer": "100",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many meters are in a kilometer?",
+        "answer": "1000",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the formula for calculating the area of a rectangle?",
+        "answer": "Length x Width",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the formula for calculating the volume of a rectangular prism?",
+        "answer": "Length x Width x Height",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the formula for calculating the circumference of a circle?",
+        "answer": "2 x pi x radius",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the formula for calculating the area of a circle?",
+        "answer": "pi x (radius)^2",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the formula for converting Celsius to Fahrenheit?",
+        "answer": "Fahrenheit = (Celsius x 1.8) + 32",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the formula for converting Fahrenheit to Celsius?",
+        "answer": "Celsius = (Fahrenheit - 32) / 1.8",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the perimeter of a rectangle with length 10 meters and width 5 meters?",
+        "answer": "30 meters",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the volume of a rectangular prism with a length of 6 cm, a width of 4 cm, and a height of 9 cm?",
+        "answer": "216 cm^3",
+        "qType": "text",
+        "aType": "text"
+    }, {
+        "question": "What is the area of a rectangle with a length of 12 m and a width of 8 m?",
+        "answer": "96 m^2",
+        "qType": "text",
+        "aType": "text"
+    }, {
+        "question": "What is the perimeter of a square with a side length of 7 cm?",
+        "answer": "28 cm",
+        "qType": "text",
+        "aType": "text"
+    }, {
+        "question": "What is the surface area of a cube with a side length of 5 cm?",
+        "answer": "150 cm^2",
+        "qType": "text",
+        "aType": "text"
+    }, {
+        "question": "What is the volume of a cone with a radius of 6 cm and a height of 8 cm?",
+        "answer": "96π cm^3",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the circumference of a circle with a radius of 9 m?",
+        "answer": "18π m",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the perimeter of a regular hexagon with a side length of 5 cm?",
+        "answer": "30 cm",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the surface area of a cylinder with a radius of 4 cm and a height of 10 cm?",
+        "answer": "256π cm^2",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the volume of a sphere with a radius of 7 cm?",
+        "answer": "179.66π cm^3",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is the surface area of a rectangular prism with a length of 10 cm, a width of 6 cm, and a height of 8 cm?",
+        "answer": "332 cm^2",
+        "qType": "text",
+        "aType": "text"
+    }
+]

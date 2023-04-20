@@ -1,1 +1,121 @@
-{"file_name": "Long Division"}
+[{
+        "question": "84 ÷ 4",
+        "answer": "21",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "90 ÷ 9",
+        "answer": "10",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "72 ÷ 8",
+        "answer": "9",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "45 ÷ 5",
+        "answer": "9",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "56 ÷ 7",
+        "answer": "8",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "96 ÷ 6",
+        "answer": "16",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "63 ÷ 9",
+        "answer": "7",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "81 ÷ 9",
+        "answer": "9",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "64 ÷ 8",
+        "answer": "8",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "88 ÷ 11",
+        "answer": "8",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "120 ÷ 10",
+        "answer": "12",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "144 ÷ 12",
+        "answer": "12",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "98 ÷ 7",
+        "answer": "14",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "150 ÷ 15",
+        "answer": "10",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "108 ÷ 9",
+        "answer": "12",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "60 ÷ 6",
+        "answer": "10",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "70 ÷ 10",
+        "answer": "7",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "80 ÷ 8",
+        "answer": "10",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "132 ÷ 11",
+        "answer": "12",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "110 ÷ 10",
+        "answer": "11",
+        "qType": "text",
+        "aType": "text"
+    }
+]

@@ -1,1 +1,110 @@
-{"file_name": "Percentage"}
+[{
+        "question": "What is 50% of 20?",
+        "answer": "10",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "25% of a number is 5. What is the number?",
+        "answer": "20",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "If 20% of a number is 8, what is the number?",
+        "answer": "40",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 10% of 300?",
+        "answer": "30",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 75% of 60?",
+        "answer": "45",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Find 5% of 80.",
+        "answer": "4",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 100% of 35?",
+        "answer": "35",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Find 200% of 25.",
+        "answer": "50",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Calculate 15% of 150.",
+        "answer": "22.5",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 5% of 500?",
+        "answer": "25",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "If 75% of a number is 15, what is the number?",
+        "answer": "20",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 30% of 90?",
+        "answer": "27",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Find 20% of 120.",
+        "answer": "24",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Calculate 45% of 40.",
+        "answer": "18",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 25% of 48?",
+        "answer": "12",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Find 35% of 200.",
+        "answer": "70",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What is 10% of 800?",
+        "answer": "80",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Calculate 65% of 60.",
+        "answer": "39",
+        "qType": "text",
+        "aType": "text"
+
+    }
+]

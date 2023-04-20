@@ -1,1 +1,122 @@
-{"file_name": "Measurement"}
+[{
+        "question": "How many centimeters are in a meter?",
+        "answer": "100",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many millimeters are in a centimeter?",
+        "answer": "10",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many kilometers are in a mile?",
+        "answer": "1.609",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many inches are in a foot?",
+        "answer": "12",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many feet are in a yard?",
+        "answer": "3",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Convert 5 meters to centimeters.",
+        "answer": "500",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Convert 8 kilometers to meters.",
+        "answer": "8000",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Convert 6 feet to inches.",
+        "answer": "72",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Convert 3 yards to feet.",
+        "answer": "9",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Convert 9 inches to centimeters.",
+        "answer": "22.86",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What unit of measurement is used to measure liquid volume?",
+        "answer": "Liter",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What unit of measurement is used to measure weight?",
+        "answer": "Gram",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many liters are in a gallon?",
+        "answer": "3.785",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many grams are in a pound?",
+        "answer": "453.592",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Convert 5 gallons to liters.",
+        "answer": "18.925",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "Convert 10 pounds to grams.",
+        "answer": "4535.92",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What unit of measurement is used to measure length in the metric system?",
+        "answer": "Meter",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "What unit of measurement is used to measure length in the imperial system?",
+        "answer": "Foot",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+
+        "question": "How many minutes are in an hour?",
+        "answer": "60",
+        "qType": "text",
+        "aType": "text"
+    },
+    {
+        "question": "How many seconds are in a minute?",
+        "answer": "60",
+        "qType": "text",
+        "aType": "text"
+    }
+]
