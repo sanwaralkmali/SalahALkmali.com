@@ -41,7 +41,8 @@ function getPath() {
     level_value = level.value;
     let topics = document.getElementById("topics");
     topic_value = topics.value;
-    path = "../../resources/JSON/" + grade_value + "/" + topic_value + ".json";
+    path = "../../resources/JSON/1/Addition.json";
+    console.log(path);
     return {
         grade_value,
         level_value,
